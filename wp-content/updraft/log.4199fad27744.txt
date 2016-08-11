@@ -1,0 +1,1754 @@
+0000.000 (0) Opened log file at time: Thu, 11 Aug 2016 11:30:57 +0000 on http://demo.linnovate.net/
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.17 WP: 4.5.3 PHP: 7.0.8-0ubuntu0.16.04.2 (Linux stackchat 4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016 x86_64) MySQL: 5.7.13 WPLANG: en_US Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.9M | 2M) multisite: Y openssl: OpenSSL 1.0.2g-fips  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+0000.012 (0) Free space on disk containing Updraft's temporary directory: 12003.1 MB
+0000.018 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.046 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.076 (0) Set semaphore last lock (fd) time to 2016-08-11 11:30:57
+0000.086 (0) Semaphore lock (fd) complete
+0000.107 (0) Backup run: resumption=0, nonce=4199fad27744, begun at=1470915057 (0s ago), job type=backup
+0000.121 (0) Scheduling a resumption (1) after 300 seconds (1470915357) in case this run gets aborted
+0000.149 (0) Checking if we have a zip executable available
+0000.155 (0) Testing: /usr/bin/zip
+0000.164 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.170 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.175 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.180 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.185 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.192 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.198 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.203 (0) Working binary zip found: /usr/bin/zip
+0000.216 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.221 (0) Creation of backups of directories: beginning
+0000.238 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.292 (0) Total entities for the zip file: 433 directories, 2378 files (0 skipped as non-modified), 39 MB
+0000.309 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.316 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.322 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.327 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.333 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.338 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 2378 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.523 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: size is now: 1.60 MB
+0000.534 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 600 files added (on-disk size: 1633.7 KB)
+0000.539 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 700 files added (on-disk size: 1633.7 KB)
+0000.545 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 800 files added (on-disk size: 1633.7 KB)
+0000.550 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 900 files added (on-disk size: 1633.7 KB)
+0000.558 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 1000 files added (on-disk size: 1633.7 KB)
+0000.562 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 2378 files batched, 501 (1002) added so far); re-opening (prior size: 1633.7 KB)
+0000.764 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: size is now: 2.90 MB
+0000.780 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 1100 files added (on-disk size: 2944.3 KB)
+0000.786 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 1200 files added (on-disk size: 2944.3 KB)
+0000.791 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 1300 files added (on-disk size: 2944.3 KB)
+0000.797 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 1400 files added (on-disk size: 2944.3 KB)
+0000.802 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 1500 files added (on-disk size: 2944.3 KB)
+0000.807 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.9 MB, 2378 files batched, 501 (1503) added so far); re-opening (prior size: 2944.3 KB)
+0001.535 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: size is now: 8.20 MB
+0001.601 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 1600 files added (on-disk size: 8403.3 KB)
+0001.643 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 1700 files added (on-disk size: 8403.3 KB)
+0001.648 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 1800 files added (on-disk size: 8403.3 KB)
+0001.653 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 1900 files added (on-disk size: 8403.3 KB)
+0001.663 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 2000 files added (on-disk size: 8403.3 KB)
+0001.668 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.2 MB, 2378 files batched, 501 (2004) added so far); re-opening (prior size: 8403.3 KB)
+0002.093 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: size is now: 12.40 MB
+0002.109 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 2100 files added (on-disk size: 12653.8 KB)
+0002.115 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 2200 files added (on-disk size: 12653.8 KB)
+0002.121 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: 2300 files added (on-disk size: 12653.8 KB)
+0002.396 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip.tmp: size is now: 15.90 MB
+0002.468 (0) Created plugins zip (0) - 16320.2 KB in 2.2 s (7338.6 KB/s) (SHA1 checksum: 205ef3b35daeea0e3fcaea357a5b56da92898085)
+0002.479 (0) Beginning creation of dump of themes (split every: 400 MB)
+0002.520 (0) Total entities for the zip file: 254 directories, 1207 files (0 skipped as non-modified), 30 MB
+0002.532 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.538 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.543 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.549 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.555 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.560 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.8 MB, 1207 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.901 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-themes.zip.tmp: size is now: 12.50 MB
+0002.942 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-themes.zip.tmp: 600 files added (on-disk size: 12818.5 KB)
+0002.948 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-themes.zip.tmp: 700 files added (on-disk size: 12818.5 KB)
+0002.953 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-themes.zip.tmp: 800 files added (on-disk size: 12818.5 KB)
+0002.959 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-themes.zip.tmp: 900 files added (on-disk size: 12818.5 KB)
+0002.965 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-themes.zip.tmp: 1000 files added (on-disk size: 12818.5 KB)
+0002.970 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.9 MB, 1207 files batched, 501 (1002) added so far); re-opening (prior size: 12818.5 KB)
+0003.382 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-themes.zip.tmp: size is now: 18.20 MB
+0003.399 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-themes.zip.tmp: 1100 files added (on-disk size: 18607.6 KB)
+0003.405 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-themes.zip.tmp: 1200 files added (on-disk size: 18607.6 KB)
+0003.656 (0) Created themes zip (0) - 20032.5 KB in 1.2 s (17091.6 KB/s) (SHA1 checksum: f93a849c8fac8f734d2b1763c877298e155e5dfd)
+0003.666 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0003.671 (0) Looking for candidates to back up in: /home/web/wp-content/uploads
+0003.675 (0) finding files: sites: adding to list (1)
+0003.680 (0) finding files: 2016: adding to list (2)
+0003.685 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0003.699 (0) Total entities for the zip file: 55 directories, 157 files (0 skipped as non-modified), 8.8 MB
+0003.707 (0) Zip: backup_2016-08-11-1130_Multisite_demo_4199fad27744-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.805 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-uploads.zip.tmp: size is now: 8.80 MB
+0003.850 (0) Created uploads zip (0) - 9015.1 KB in 0.2 s (55857.6 KB/s) (SHA1 checksum: 367ce8586bf7bd68a2dbe27191a78b0bae28d5a5)
+0003.860 (0) Beginning backup of other directories found in the content directory (index: 0)
+0003.865 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0003.870 (0) Looking for candidates to back up in: /home/web/wp-content
+0003.876 (0) finding files: uploads: skipping: this is the uploads directory
+0003.881 (0) finding files: updraft: skipping: this is the updraft directory
+0003.886 (0) finding files: plugins: skipping: this is the plugins directory
+0003.891 (0) finding files: themes: skipping: this is the themes directory
+0003.896 (0) finding files: upgrade: skipping: excluded by options
+0003.901 (0) finding files: index.php: adding to list (1)
+0003.909 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0003.915 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-others.zip.tmp: size is now: 0.00 MB
+0003.931 (0) Created others zip (0) - 0.2 KB in 0 s (7.2 KB/s) (SHA1 checksum: 93865f63386650b10767c934fbf8fa6e51514a8f)
+0003.952 (0) Saving backup status to database (elements: 8)
+0003.962 (0) Beginning creation of database dump (WordPress DB)
+0003.972 (0) Testing: /usr/bin/mysqldump
+0004.008 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0004.185 (0) Table wp_options: Total expected rows (approximate): 180
+0004.221 (0) Table wp_options: Total rows added: 180 in 0.03 seconds
+0004.227 (0) Table wp_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_options.table.gz - 146.4 KB)
+0004.242 (0) Table wp_site: Total expected rows (approximate): 0
+0004.247 (0) Table wp_site: Total rows added: 1 in 0.00 seconds
+0004.252 (0) Table wp_site: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_site.table.gz - 0.4 KB)
+0004.267 (0) Table wp_blogs: Total expected rows (approximate): 33
+0004.273 (0) Table wp_blogs: Total rows added: 36 in 0.00 seconds
+0004.278 (0) Table wp_blogs: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_blogs.table.gz - 1.1 KB)
+0004.299 (0) Table wp_users: Total expected rows (approximate): 1
+0004.305 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+0004.310 (0) Table wp_users: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_users.table.gz - 0.7 KB)
+0004.327 (0) Table wp_usermeta: Total expected rows (approximate): 135
+0004.337 (0) Table wp_usermeta: Total rows added: 149 in 0.00 seconds
+0004.342 (0) Table wp_usermeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_usermeta.table.gz - 2.9 KB)
+0004.358 (0) Table wp_blog_versions: Total expected rows (approximate): 0
+0004.365 (0) Table wp_blog_versions: Total rows added: 0 in 0.00 seconds
+0004.369 (0) Table wp_blog_versions: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_blog_versions.table.gz - 0.3 KB)
+0004.388 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0004.393 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0004.398 (0) Table wp_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0004.413 (0) Table wp_comments: Total expected rows (approximate): 0
+0004.420 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0004.425 (0) Table wp_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_comments.table.gz - 0.7 KB)
+0004.446 (0) Table wp_links: Total expected rows (approximate): 0
+0004.452 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0004.458 (0) Table wp_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_links.table.gz - 0.4 KB)
+0004.477 (0) Table wp_postmeta: Total expected rows (approximate): 55
+0004.484 (0) Table wp_postmeta: Total rows added: 55 in 0.00 seconds
+0004.489 (0) Table wp_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_postmeta.table.gz - 5 KB)
+0004.505 (0) Table wp_posts: Total expected rows (approximate): 22
+0004.511 (0) Table wp_posts: Total rows added: 22 in 0.00 seconds
+0004.516 (0) Table wp_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_posts.table.gz - 2.6 KB)
+0004.538 (0) Table wp_registration_log: Total expected rows (approximate): 32
+0004.543 (0) Table wp_registration_log: Total rows added: 37 in 0.00 seconds
+0004.548 (0) Table wp_registration_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_registration_log.table.gz - 1 KB)
+0004.565 (0) Table wp_signups: Total expected rows (approximate): 2
+0004.571 (0) Table wp_signups: Total rows added: 4 in 0.00 seconds
+0004.576 (0) Table wp_signups: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_signups.table.gz - 0.8 KB)
+0004.593 (0) Table wp_sitemeta: Total expected rows (approximate): 67
+0004.600 (0) Table wp_sitemeta: Total rows added: 66 in 0.00 seconds
+0004.605 (0) Table wp_sitemeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_sitemeta.table.gz - 13.4 KB)
+0004.621 (0) Table wp_term_relationships: Total expected rows (approximate): 4
+0004.626 (0) Table wp_term_relationships: Total rows added: 4 in 0.00 seconds
+0004.637 (0) Table wp_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0004.653 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3
+0004.658 (0) Table wp_term_taxonomy: Total rows added: 3 in 0.00 seconds
+0004.662 (0) Table wp_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0004.678 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0004.687 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0004.692 (0) Table wp_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_termmeta.table.gz - 0.4 KB)
+0004.706 (0) Table wp_terms: Total expected rows (approximate): 3
+0004.712 (0) Table wp_terms: Total rows added: 3 in 0.00 seconds
+0004.717 (0) Table wp_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_terms.table.gz - 0.4 KB)
+0004.738 (0) Table wp_10_aryo_activity_log: Total expected rows (approximate): 0
+0004.743 (0) Table wp_10_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0004.748 (0) Table wp_10_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_aryo_activity_log.table.gz - 0.4 KB)
+0004.764 (0) Table wp_10_commentmeta: Total expected rows (approximate): 0
+0004.769 (0) Table wp_10_commentmeta: Total rows added: 0 in 0.00 seconds
+0004.775 (0) Table wp_10_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_commentmeta.table.gz - 0.4 KB)
+0004.797 (0) Table wp_10_comments: Total expected rows (approximate): 0
+0004.803 (0) Table wp_10_comments: Total rows added: 1 in 0.00 seconds
+0004.807 (0) Table wp_10_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_comments.table.gz - 0.6 KB)
+0004.836 (0) Table wp_10_links: Total expected rows (approximate): 0
+0004.842 (0) Table wp_10_links: Total rows added: 0 in 0.00 seconds
+0004.848 (0) Table wp_10_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_links.table.gz - 0.4 KB)
+0004.868 (0) Table wp_10_options: Total expected rows (approximate): 98
+0004.880 (0) Table wp_10_options: Total rows added: 105 in 0.00 seconds
+0004.888 (0) Table wp_10_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_options.table.gz - 3.7 KB)
+0004.920 (0) Table wp_10_postmeta: Total expected rows (approximate): 0
+0004.926 (0) Table wp_10_postmeta: Total rows added: 1 in 0.00 seconds
+0004.931 (0) Table wp_10_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_postmeta.table.gz - 0.4 KB)
+0004.949 (0) Table wp_10_posts: Total expected rows (approximate): 2
+0004.954 (0) Table wp_10_posts: Total rows added: 2 in 0.00 seconds
+0004.959 (0) Table wp_10_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_posts.table.gz - 0.8 KB)
+0004.976 (0) Table wp_10_term_relationships: Total expected rows (approximate): 0
+0004.987 (0) Table wp_10_term_relationships: Total rows added: 1 in 0.00 seconds
+0004.992 (0) Table wp_10_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_term_relationships.table.gz - 0.4 KB)
+0005.008 (0) Table wp_10_term_taxonomy: Total expected rows (approximate): 0
+0005.014 (0) Table wp_10_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0005.022 (0) Table wp_10_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_term_taxonomy.table.gz - 0.4 KB)
+0005.041 (0) Table wp_10_termmeta: Total expected rows (approximate): 0
+0005.047 (0) Table wp_10_termmeta: Total rows added: 0 in 0.00 seconds
+0005.052 (0) Table wp_10_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_termmeta.table.gz - 0.4 KB)
+0005.069 (0) Table wp_10_terms: Total expected rows (approximate): 0
+0005.074 (0) Table wp_10_terms: Total rows added: 1 in 0.00 seconds
+0005.079 (0) Table wp_10_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_terms.table.gz - 0.4 KB)
+0005.097 (0) Table wp_11_aryo_activity_log: Total expected rows (approximate): 0
+0005.102 (0) Table wp_11_aryo_activity_log: Total rows added: 1 in 0.00 seconds
+0005.108 (0) Table wp_11_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_aryo_activity_log.table.gz - 0.5 KB)
+0005.124 (0) Table wp_11_commentmeta: Total expected rows (approximate): 0
+0005.129 (0) Table wp_11_commentmeta: Total rows added: 0 in 0.00 seconds
+0005.138 (0) Table wp_11_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_commentmeta.table.gz - 0.4 KB)
+0005.158 (0) Table wp_11_comments: Total expected rows (approximate): 0
+0005.165 (0) Table wp_11_comments: Total rows added: 1 in 0.00 seconds
+0005.171 (0) Table wp_11_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_comments.table.gz - 0.6 KB)
+0005.187 (0) Table wp_11_links: Total expected rows (approximate): 0
+0005.192 (0) Table wp_11_links: Total rows added: 0 in 0.00 seconds
+0005.198 (0) Table wp_11_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_links.table.gz - 0.4 KB)
+0005.219 (0) Table wp_11_options: Total expected rows (approximate): 128
+0005.249 (0) Table wp_11_options: Total rows added: 137 in 0.02 seconds
+0005.255 (0) Table wp_11_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_options.table.gz - 126.1 KB)
+0005.272 (0) Table wp_11_postmeta: Total expected rows (approximate): 0
+0005.277 (0) Table wp_11_postmeta: Total rows added: 1 in 0.00 seconds
+0005.283 (0) Table wp_11_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_postmeta.table.gz - 0.4 KB)
+0005.299 (0) Table wp_11_posts: Total expected rows (approximate): 2
+0005.305 (0) Table wp_11_posts: Total rows added: 3 in 0.00 seconds
+0005.310 (0) Table wp_11_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_posts.table.gz - 0.9 KB)
+0005.329 (0) Table wp_11_term_relationships: Total expected rows (approximate): 0
+0005.337 (0) Table wp_11_term_relationships: Total rows added: 1 in 0.00 seconds
+0005.343 (0) Table wp_11_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_term_relationships.table.gz - 0.4 KB)
+0005.359 (0) Table wp_11_term_taxonomy: Total expected rows (approximate): 0
+0005.364 (0) Table wp_11_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0005.369 (0) Table wp_11_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_term_taxonomy.table.gz - 0.4 KB)
+0005.389 (0) Table wp_11_termmeta: Total expected rows (approximate): 0
+0005.394 (0) Table wp_11_termmeta: Total rows added: 0 in 0.00 seconds
+0005.399 (0) Table wp_11_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_termmeta.table.gz - 0.4 KB)
+0005.416 (0) Table wp_11_terms: Total expected rows (approximate): 0
+0005.421 (0) Table wp_11_terms: Total rows added: 1 in 0.00 seconds
+0005.426 (0) Table wp_11_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_terms.table.gz - 0.4 KB)
+0005.447 (0) Table wp_12_aryo_activity_log: Total expected rows (approximate): 0
+0005.453 (0) Table wp_12_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0005.458 (0) Table wp_12_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_aryo_activity_log.table.gz - 0.4 KB)
+0005.474 (0) Table wp_12_commentmeta: Total expected rows (approximate): 0
+0005.479 (0) Table wp_12_commentmeta: Total rows added: 0 in 0.00 seconds
+0005.487 (0) Table wp_12_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_commentmeta.table.gz - 0.4 KB)
+0005.504 (0) Table wp_12_comments: Total expected rows (approximate): 1
+0005.510 (0) Table wp_12_comments: Total rows added: 1 in 0.00 seconds
+0005.515 (0) Table wp_12_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_comments.table.gz - 0.6 KB)
+0005.537 (0) Table wp_12_links: Total expected rows (approximate): 0
+0005.542 (0) Table wp_12_links: Total rows added: 0 in 0.00 seconds
+0005.548 (0) Table wp_12_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_links.table.gz - 0.4 KB)
+0005.564 (0) Table wp_12_options: Total expected rows (approximate): 131
+0005.584 (0) Table wp_12_options: Total rows added: 142 in 0.01 seconds
+0005.590 (0) Table wp_12_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_options.table.gz - 83.6 KB)
+0005.606 (0) Table wp_12_postmeta: Total expected rows (approximate): 27
+0005.613 (0) Table wp_12_postmeta: Total rows added: 25 in 0.00 seconds
+0005.618 (0) Table wp_12_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_postmeta.table.gz - 5.5 KB)
+0005.637 (0) Table wp_12_posts: Total expected rows (approximate): 27
+0005.644 (0) Table wp_12_posts: Total rows added: 28 in 0.00 seconds
+0005.649 (0) Table wp_12_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_posts.table.gz - 4.7 KB)
+0005.666 (0) Table wp_12_term_relationships: Total expected rows (approximate): 2
+0005.671 (0) Table wp_12_term_relationships: Total rows added: 2 in 0.00 seconds
+0005.676 (0) Table wp_12_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_term_relationships.table.gz - 0.4 KB)
+0005.694 (0) Table wp_12_term_taxonomy: Total expected rows (approximate): 0
+0005.699 (0) Table wp_12_term_taxonomy: Total rows added: 2 in 0.00 seconds
+0005.704 (0) Table wp_12_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_term_taxonomy.table.gz - 0.4 KB)
+0005.720 (0) Table wp_12_termmeta: Total expected rows (approximate): 0
+0005.726 (0) Table wp_12_termmeta: Total rows added: 0 in 0.00 seconds
+0005.735 (0) Table wp_12_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_termmeta.table.gz - 0.4 KB)
+0005.752 (0) Table wp_12_terms: Total expected rows (approximate): 2
+0005.758 (0) Table wp_12_terms: Total rows added: 2 in 0.00 seconds
+0005.762 (0) Table wp_12_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_terms.table.gz - 0.5 KB)
+0005.782 (0) Table wp_13_aryo_activity_log: Total expected rows (approximate): 0
+0005.789 (0) Table wp_13_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0005.794 (0) Table wp_13_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_aryo_activity_log.table.gz - 0.4 KB)
+0005.810 (0) Table wp_13_commentmeta: Total expected rows (approximate): 0
+0005.816 (0) Table wp_13_commentmeta: Total rows added: 0 in 0.00 seconds
+0005.820 (0) Table wp_13_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_commentmeta.table.gz - 0.4 KB)
+0005.842 (0) Table wp_13_comments: Total expected rows (approximate): 0
+0005.847 (0) Table wp_13_comments: Total rows added: 1 in 0.00 seconds
+0005.852 (0) Table wp_13_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_comments.table.gz - 0.6 KB)
+0005.868 (0) Table wp_13_links: Total expected rows (approximate): 0
+0005.874 (0) Table wp_13_links: Total rows added: 0 in 0.00 seconds
+0005.878 (0) Table wp_13_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_links.table.gz - 0.4 KB)
+0005.899 (0) Table wp_13_options: Total expected rows (approximate): 123
+0005.917 (0) Table wp_13_options: Total rows added: 134 in 0.01 seconds
+0005.922 (0) Table wp_13_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_options.table.gz - 83 KB)
+0005.937 (0) Table wp_13_postmeta: Total expected rows (approximate): 0
+0005.943 (0) Table wp_13_postmeta: Total rows added: 1 in 0.00 seconds
+0005.948 (0) Table wp_13_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_postmeta.table.gz - 0.4 KB)
+0005.964 (0) Table wp_13_posts: Total expected rows (approximate): 2
+0005.970 (0) Table wp_13_posts: Total rows added: 3 in 0.00 seconds
+0005.975 (0) Table wp_13_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_posts.table.gz - 0.9 KB)
+0005.993 (0) Table wp_13_term_relationships: Total expected rows (approximate): 0
+0005.999 (0) Table wp_13_term_relationships: Total rows added: 1 in 0.00 seconds
+0006.004 (0) Table wp_13_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_term_relationships.table.gz - 0.4 KB)
+0006.020 (0) Table wp_13_term_taxonomy: Total expected rows (approximate): 0
+0006.026 (0) Table wp_13_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0006.035 (0) Table wp_13_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_term_taxonomy.table.gz - 0.4 KB)
+0006.051 (0) Table wp_13_termmeta: Total expected rows (approximate): 0
+0006.056 (0) Table wp_13_termmeta: Total rows added: 0 in 0.00 seconds
+0006.061 (0) Table wp_13_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_termmeta.table.gz - 0.4 KB)
+0006.077 (0) Table wp_13_terms: Total expected rows (approximate): 0
+0006.088 (0) Table wp_13_terms: Total rows added: 1 in 0.00 seconds
+0006.092 (0) Table wp_13_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_terms.table.gz - 0.4 KB)
+0006.108 (0) Table wp_14_aryo_activity_log: Total expected rows (approximate): 0
+0006.114 (0) Table wp_14_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0006.119 (0) Table wp_14_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_aryo_activity_log.table.gz - 0.4 KB)
+0006.141 (0) Table wp_14_commentmeta: Total expected rows (approximate): 0
+0006.147 (0) Table wp_14_commentmeta: Total rows added: 0 in 0.00 seconds
+0006.152 (0) Table wp_14_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_commentmeta.table.gz - 0.4 KB)
+0006.168 (0) Table wp_14_comments: Total expected rows (approximate): 0
+0006.174 (0) Table wp_14_comments: Total rows added: 1 in 0.00 seconds
+0006.179 (0) Table wp_14_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_comments.table.gz - 0.6 KB)
+0006.198 (0) Table wp_14_links: Total expected rows (approximate): 0
+0006.204 (0) Table wp_14_links: Total rows added: 0 in 0.00 seconds
+0006.208 (0) Table wp_14_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_links.table.gz - 0.4 KB)
+0006.225 (0) Table wp_14_options: Total expected rows (approximate): 111
+0006.237 (0) Table wp_14_options: Total rows added: 118 in 0.00 seconds
+0006.242 (0) Table wp_14_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_options.table.gz - 4 KB)
+0006.257 (0) Table wp_14_postmeta: Total expected rows (approximate): 0
+0006.263 (0) Table wp_14_postmeta: Total rows added: 1 in 0.00 seconds
+0006.267 (0) Table wp_14_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_postmeta.table.gz - 0.4 KB)
+0006.288 (0) Table wp_14_posts: Total expected rows (approximate): 2
+0006.294 (0) Table wp_14_posts: Total rows added: 2 in 0.00 seconds
+0006.299 (0) Table wp_14_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_posts.table.gz - 0.8 KB)
+0006.315 (0) Table wp_14_term_relationships: Total expected rows (approximate): 0
+0006.321 (0) Table wp_14_term_relationships: Total rows added: 1 in 0.00 seconds
+0006.326 (0) Table wp_14_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_term_relationships.table.gz - 0.4 KB)
+0006.346 (0) Table wp_14_term_taxonomy: Total expected rows (approximate): 0
+0006.352 (0) Table wp_14_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0006.357 (0) Table wp_14_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_term_taxonomy.table.gz - 0.4 KB)
+0006.374 (0) Table wp_14_termmeta: Total expected rows (approximate): 0
+0006.379 (0) Table wp_14_termmeta: Total rows added: 0 in 0.00 seconds
+0006.387 (0) Table wp_14_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_termmeta.table.gz - 0.4 KB)
+0006.404 (0) Table wp_14_terms: Total expected rows (approximate): 0
+0006.410 (0) Table wp_14_terms: Total rows added: 1 in 0.00 seconds
+0006.415 (0) Table wp_14_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_terms.table.gz - 0.4 KB)
+0006.438 (0) Table wp_15_aryo_activity_log: Total expected rows (approximate): 0
+0006.443 (0) Table wp_15_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0006.447 (0) Table wp_15_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_aryo_activity_log.table.gz - 0.4 KB)
+0006.464 (0) Table wp_15_commentmeta: Total expected rows (approximate): 0
+0006.469 (0) Table wp_15_commentmeta: Total rows added: 0 in 0.00 seconds
+0006.474 (0) Table wp_15_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_commentmeta.table.gz - 0.4 KB)
+0006.493 (0) Table wp_15_comments: Total expected rows (approximate): 0
+0006.499 (0) Table wp_15_comments: Total rows added: 1 in 0.00 seconds
+0006.504 (0) Table wp_15_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_comments.table.gz - 0.6 KB)
+0006.519 (0) Table wp_15_links: Total expected rows (approximate): 0
+0006.525 (0) Table wp_15_links: Total rows added: 0 in 0.00 seconds
+0006.537 (0) Table wp_15_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_links.table.gz - 0.4 KB)
+0006.554 (0) Table wp_15_options: Total expected rows (approximate): 98
+0006.560 (0) Table wp_15_options: Total rows added: 105 in 0.00 seconds
+0006.565 (0) Table wp_15_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_options.table.gz - 3.7 KB)
+0006.581 (0) Table wp_15_postmeta: Total expected rows (approximate): 0
+0006.588 (0) Table wp_15_postmeta: Total rows added: 1 in 0.00 seconds
+0006.592 (0) Table wp_15_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_postmeta.table.gz - 0.4 KB)
+0006.609 (0) Table wp_15_posts: Total expected rows (approximate): 2
+0006.614 (0) Table wp_15_posts: Total rows added: 2 in 0.00 seconds
+0006.619 (0) Table wp_15_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_posts.table.gz - 0.8 KB)
+0006.645 (0) Table wp_15_term_relationships: Total expected rows (approximate): 0
+0006.652 (0) Table wp_15_term_relationships: Total rows added: 1 in 0.00 seconds
+0006.658 (0) Table wp_15_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_term_relationships.table.gz - 0.4 KB)
+0006.674 (0) Table wp_15_term_taxonomy: Total expected rows (approximate): 0
+0006.680 (0) Table wp_15_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0006.685 (0) Table wp_15_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_term_taxonomy.table.gz - 0.4 KB)
+0006.700 (0) Table wp_15_termmeta: Total expected rows (approximate): 0
+0006.706 (0) Table wp_15_termmeta: Total rows added: 0 in 0.00 seconds
+0006.711 (0) Table wp_15_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_termmeta.table.gz - 0.4 KB)
+0006.727 (0) Table wp_15_terms: Total expected rows (approximate): 0
+0006.738 (0) Table wp_15_terms: Total rows added: 1 in 0.00 seconds
+0006.744 (0) Table wp_15_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_terms.table.gz - 0.4 KB)
+0006.761 (0) Table wp_16_aryo_activity_log: Total expected rows (approximate): 0
+0006.766 (0) Table wp_16_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0006.771 (0) Table wp_16_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_aryo_activity_log.table.gz - 0.4 KB)
+0006.789 (0) Table wp_16_commentmeta: Total expected rows (approximate): 0
+0006.794 (0) Table wp_16_commentmeta: Total rows added: 0 in 0.00 seconds
+0006.799 (0) Table wp_16_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_commentmeta.table.gz - 0.4 KB)
+0006.814 (0) Table wp_16_comments: Total expected rows (approximate): 0
+0006.820 (0) Table wp_16_comments: Total rows added: 1 in 0.00 seconds
+0006.825 (0) Table wp_16_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_comments.table.gz - 0.6 KB)
+0006.849 (0) Table wp_16_links: Total expected rows (approximate): 0
+0006.854 (0) Table wp_16_links: Total rows added: 0 in 0.00 seconds
+0006.859 (0) Table wp_16_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_links.table.gz - 0.4 KB)
+0006.875 (0) Table wp_16_options: Total expected rows (approximate): 98
+0006.881 (0) Table wp_16_options: Total rows added: 105 in 0.00 seconds
+0006.887 (0) Table wp_16_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_options.table.gz - 3.7 KB)
+0006.904 (0) Table wp_16_postmeta: Total expected rows (approximate): 0
+0006.909 (0) Table wp_16_postmeta: Total rows added: 1 in 0.00 seconds
+0006.914 (0) Table wp_16_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_postmeta.table.gz - 0.4 KB)
+0006.938 (0) Table wp_16_posts: Total expected rows (approximate): 2
+0006.944 (0) Table wp_16_posts: Total rows added: 2 in 0.00 seconds
+0006.949 (0) Table wp_16_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_posts.table.gz - 0.8 KB)
+0006.966 (0) Table wp_16_term_relationships: Total expected rows (approximate): 0
+0006.972 (0) Table wp_16_term_relationships: Total rows added: 1 in 0.00 seconds
+0006.977 (0) Table wp_16_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_term_relationships.table.gz - 0.4 KB)
+0006.993 (0) Table wp_16_term_taxonomy: Total expected rows (approximate): 0
+0006.999 (0) Table wp_16_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0007.004 (0) Table wp_16_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_term_taxonomy.table.gz - 0.4 KB)
+0007.020 (0) Table wp_16_termmeta: Total expected rows (approximate): 0
+0007.025 (0) Table wp_16_termmeta: Total rows added: 0 in 0.00 seconds
+0007.037 (0) Table wp_16_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_termmeta.table.gz - 0.4 KB)
+0007.053 (0) Table wp_16_terms: Total expected rows (approximate): 0
+0007.059 (0) Table wp_16_terms: Total rows added: 1 in 0.00 seconds
+0007.064 (0) Table wp_16_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_terms.table.gz - 0.4 KB)
+0007.086 (0) Table wp_17_aryo_activity_log: Total expected rows (approximate): 0
+0007.092 (0) Table wp_17_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0007.097 (0) Table wp_17_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_aryo_activity_log.table.gz - 0.4 KB)
+0007.113 (0) Table wp_17_commentmeta: Total expected rows (approximate): 0
+0007.118 (0) Table wp_17_commentmeta: Total rows added: 0 in 0.00 seconds
+0007.123 (0) Table wp_17_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_commentmeta.table.gz - 0.4 KB)
+0007.144 (0) Table wp_17_comments: Total expected rows (approximate): 0
+0007.149 (0) Table wp_17_comments: Total rows added: 1 in 0.00 seconds
+0007.154 (0) Table wp_17_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_comments.table.gz - 0.6 KB)
+0007.170 (0) Table wp_17_links: Total expected rows (approximate): 0
+0007.175 (0) Table wp_17_links: Total rows added: 0 in 0.00 seconds
+0007.180 (0) Table wp_17_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_links.table.gz - 0.4 KB)
+0007.199 (0) Table wp_17_options: Total expected rows (approximate): 111
+0007.205 (0) Table wp_17_options: Total rows added: 118 in 0.00 seconds
+0007.210 (0) Table wp_17_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_options.table.gz - 4 KB)
+0007.226 (0) Table wp_17_postmeta: Total expected rows (approximate): 0
+0007.238 (0) Table wp_17_postmeta: Total rows added: 1 in 0.00 seconds
+0007.243 (0) Table wp_17_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_postmeta.table.gz - 0.4 KB)
+0007.260 (0) Table wp_17_posts: Total expected rows (approximate): 2
+0007.266 (0) Table wp_17_posts: Total rows added: 2 in 0.00 seconds
+0007.271 (0) Table wp_17_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_posts.table.gz - 0.8 KB)
+0007.289 (0) Table wp_17_term_relationships: Total expected rows (approximate): 0
+0007.295 (0) Table wp_17_term_relationships: Total rows added: 1 in 0.00 seconds
+0007.300 (0) Table wp_17_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_term_relationships.table.gz - 0.4 KB)
+0007.317 (0) Table wp_17_term_taxonomy: Total expected rows (approximate): 0
+0007.322 (0) Table wp_17_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0007.328 (0) Table wp_17_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_term_taxonomy.table.gz - 0.4 KB)
+0007.349 (0) Table wp_17_termmeta: Total expected rows (approximate): 0
+0007.354 (0) Table wp_17_termmeta: Total rows added: 0 in 0.00 seconds
+0007.359 (0) Table wp_17_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_termmeta.table.gz - 0.4 KB)
+0007.375 (0) Table wp_17_terms: Total expected rows (approximate): 0
+0007.381 (0) Table wp_17_terms: Total rows added: 1 in 0.00 seconds
+0007.388 (0) Table wp_17_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_terms.table.gz - 0.4 KB)
+0007.408 (0) Table wp_18_aryo_activity_log: Total expected rows (approximate): 0
+0007.414 (0) Table wp_18_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0007.419 (0) Table wp_18_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_aryo_activity_log.table.gz - 0.4 KB)
+0007.438 (0) Table wp_18_commentmeta: Total expected rows (approximate): 0
+0007.444 (0) Table wp_18_commentmeta: Total rows added: 0 in 0.00 seconds
+0007.448 (0) Table wp_18_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_commentmeta.table.gz - 0.4 KB)
+0007.464 (0) Table wp_18_comments: Total expected rows (approximate): 0
+0007.471 (0) Table wp_18_comments: Total rows added: 1 in 0.00 seconds
+0007.478 (0) Table wp_18_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_comments.table.gz - 0.6 KB)
+0007.496 (0) Table wp_18_links: Total expected rows (approximate): 0
+0007.501 (0) Table wp_18_links: Total rows added: 0 in 0.00 seconds
+0007.506 (0) Table wp_18_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_links.table.gz - 0.4 KB)
+0007.523 (0) Table wp_18_options: Total expected rows (approximate): 111
+0007.529 (0) Table wp_18_options: Total rows added: 118 in 0.00 seconds
+0007.537 (0) Table wp_18_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_options.table.gz - 4 KB)
+0007.553 (0) Table wp_18_postmeta: Total expected rows (approximate): 0
+0007.559 (0) Table wp_18_postmeta: Total rows added: 1 in 0.00 seconds
+0007.563 (0) Table wp_18_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_postmeta.table.gz - 0.4 KB)
+0007.581 (0) Table wp_18_posts: Total expected rows (approximate): 2
+0007.588 (0) Table wp_18_posts: Total rows added: 2 in 0.00 seconds
+0007.593 (0) Table wp_18_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_posts.table.gz - 0.8 KB)
+0007.610 (0) Table wp_18_term_relationships: Total expected rows (approximate): 0
+0007.616 (0) Table wp_18_term_relationships: Total rows added: 1 in 0.00 seconds
+0007.621 (0) Table wp_18_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_term_relationships.table.gz - 0.4 KB)
+0007.643 (0) Table wp_18_term_taxonomy: Total expected rows (approximate): 0
+0007.649 (0) Table wp_18_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0007.654 (0) Table wp_18_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_term_taxonomy.table.gz - 0.4 KB)
+0007.671 (0) Table wp_18_termmeta: Total expected rows (approximate): 0
+0007.677 (0) Table wp_18_termmeta: Total rows added: 0 in 0.00 seconds
+0007.682 (0) Table wp_18_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_termmeta.table.gz - 0.4 KB)
+0007.699 (0) Table wp_18_terms: Total expected rows (approximate): 0
+0007.704 (0) Table wp_18_terms: Total rows added: 1 in 0.00 seconds
+0007.709 (0) Table wp_18_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_terms.table.gz - 0.4 KB)
+0007.726 (0) Table wp_19_aryo_activity_log: Total expected rows (approximate): 0
+0007.738 (0) Table wp_19_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0007.743 (0) Table wp_19_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_aryo_activity_log.table.gz - 0.4 KB)
+0007.759 (0) Table wp_19_commentmeta: Total expected rows (approximate): 0
+0007.765 (0) Table wp_19_commentmeta: Total rows added: 0 in 0.00 seconds
+0007.769 (0) Table wp_19_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_commentmeta.table.gz - 0.4 KB)
+0007.789 (0) Table wp_19_comments: Total expected rows (approximate): 0
+0007.794 (0) Table wp_19_comments: Total rows added: 1 in 0.00 seconds
+0007.799 (0) Table wp_19_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_comments.table.gz - 0.6 KB)
+0007.816 (0) Table wp_19_links: Total expected rows (approximate): 0
+0007.821 (0) Table wp_19_links: Total rows added: 0 in 0.00 seconds
+0007.826 (0) Table wp_19_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_links.table.gz - 0.4 KB)
+0007.849 (0) Table wp_19_options: Total expected rows (approximate): 114
+0007.856 (0) Table wp_19_options: Total rows added: 121 in 0.00 seconds
+0007.861 (0) Table wp_19_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_options.table.gz - 4.2 KB)
+0007.877 (0) Table wp_19_postmeta: Total expected rows (approximate): 0
+0007.882 (0) Table wp_19_postmeta: Total rows added: 1 in 0.00 seconds
+0007.888 (0) Table wp_19_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_postmeta.table.gz - 0.4 KB)
+0007.904 (0) Table wp_19_posts: Total expected rows (approximate): 2
+0007.910 (0) Table wp_19_posts: Total rows added: 2 in 0.00 seconds
+0007.915 (0) Table wp_19_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_posts.table.gz - 0.8 KB)
+0007.938 (0) Table wp_19_term_relationships: Total expected rows (approximate): 0
+0007.946 (0) Table wp_19_term_relationships: Total rows added: 1 in 0.00 seconds
+0007.951 (0) Table wp_19_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_term_relationships.table.gz - 0.4 KB)
+0007.968 (0) Table wp_19_term_taxonomy: Total expected rows (approximate): 0
+0007.973 (0) Table wp_19_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0007.978 (0) Table wp_19_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_term_taxonomy.table.gz - 0.4 KB)
+0007.994 (0) Table wp_19_termmeta: Total expected rows (approximate): 0
+0007.999 (0) Table wp_19_termmeta: Total rows added: 0 in 0.00 seconds
+0008.004 (0) Table wp_19_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_termmeta.table.gz - 0.4 KB)
+0008.021 (0) Table wp_19_terms: Total expected rows (approximate): 0
+0008.026 (0) Table wp_19_terms: Total rows added: 1 in 0.00 seconds
+0008.038 (0) Table wp_19_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_terms.table.gz - 0.4 KB)
+0008.054 (0) Table wp_20_aryo_activity_log: Total expected rows (approximate): 0
+0008.060 (0) Table wp_20_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0008.065 (0) Table wp_20_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_aryo_activity_log.table.gz - 0.4 KB)
+0008.081 (0) Table wp_20_commentmeta: Total expected rows (approximate): 0
+0008.090 (0) Table wp_20_commentmeta: Total rows added: 0 in 0.00 seconds
+0008.095 (0) Table wp_20_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_commentmeta.table.gz - 0.4 KB)
+0008.111 (0) Table wp_20_comments: Total expected rows (approximate): 0
+0008.117 (0) Table wp_20_comments: Total rows added: 1 in 0.00 seconds
+0008.121 (0) Table wp_20_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_comments.table.gz - 0.6 KB)
+0008.145 (0) Table wp_20_links: Total expected rows (approximate): 0
+0008.150 (0) Table wp_20_links: Total rows added: 0 in 0.00 seconds
+0008.155 (0) Table wp_20_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_links.table.gz - 0.4 KB)
+0008.171 (0) Table wp_20_options: Total expected rows (approximate): 99
+0008.178 (0) Table wp_20_options: Total rows added: 117 in 0.00 seconds
+0008.182 (0) Table wp_20_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_options.table.gz - 5.3 KB)
+0008.199 (0) Table wp_20_postmeta: Total expected rows (approximate): 0
+0008.205 (0) Table wp_20_postmeta: Total rows added: 1 in 0.00 seconds
+0008.209 (0) Table wp_20_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_postmeta.table.gz - 0.4 KB)
+0008.226 (0) Table wp_20_posts: Total expected rows (approximate): 2
+0008.239 (0) Table wp_20_posts: Total rows added: 2 in 0.00 seconds
+0008.244 (0) Table wp_20_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_posts.table.gz - 0.8 KB)
+0008.259 (0) Table wp_20_term_relationships: Total expected rows (approximate): 0
+0008.264 (0) Table wp_20_term_relationships: Total rows added: 1 in 0.00 seconds
+0008.270 (0) Table wp_20_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_term_relationships.table.gz - 0.4 KB)
+0008.287 (0) Table wp_20_term_taxonomy: Total expected rows (approximate): 0
+0008.293 (0) Table wp_20_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0008.298 (0) Table wp_20_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_term_taxonomy.table.gz - 0.4 KB)
+0008.314 (0) Table wp_20_termmeta: Total expected rows (approximate): 0
+0008.320 (0) Table wp_20_termmeta: Total rows added: 0 in 0.00 seconds
+0008.326 (0) Table wp_20_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_termmeta.table.gz - 0.4 KB)
+0008.345 (0) Table wp_20_terms: Total expected rows (approximate): 0
+0008.351 (0) Table wp_20_terms: Total rows added: 1 in 0.00 seconds
+0008.356 (0) Table wp_20_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_terms.table.gz - 0.4 KB)
+0008.372 (0) Table wp_21_aryo_activity_log: Total expected rows (approximate): 0
+0008.378 (0) Table wp_21_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0008.386 (0) Table wp_21_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_aryo_activity_log.table.gz - 0.4 KB)
+0008.403 (0) Table wp_21_commentmeta: Total expected rows (approximate): 0
+0008.408 (0) Table wp_21_commentmeta: Total rows added: 0 in 0.00 seconds
+0008.413 (0) Table wp_21_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_commentmeta.table.gz - 0.4 KB)
+0008.434 (0) Table wp_21_comments: Total expected rows (approximate): 0
+0008.440 (0) Table wp_21_comments: Total rows added: 1 in 0.00 seconds
+0008.445 (0) Table wp_21_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_comments.table.gz - 0.6 KB)
+0008.462 (0) Table wp_21_links: Total expected rows (approximate): 0
+0008.468 (0) Table wp_21_links: Total rows added: 0 in 0.00 seconds
+0008.474 (0) Table wp_21_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_links.table.gz - 0.4 KB)
+0008.493 (0) Table wp_21_options: Total expected rows (approximate): 100
+0008.499 (0) Table wp_21_options: Total rows added: 114 in 0.00 seconds
+0008.505 (0) Table wp_21_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_options.table.gz - 3.9 KB)
+0008.520 (0) Table wp_21_postmeta: Total expected rows (approximate): 0
+0008.526 (0) Table wp_21_postmeta: Total rows added: 1 in 0.00 seconds
+0008.535 (0) Table wp_21_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_postmeta.table.gz - 0.4 KB)
+0008.551 (0) Table wp_21_posts: Total expected rows (approximate): 2
+0008.557 (0) Table wp_21_posts: Total rows added: 2 in 0.00 seconds
+0008.562 (0) Table wp_21_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_posts.table.gz - 0.8 KB)
+0008.578 (0) Table wp_21_term_relationships: Total expected rows (approximate): 0
+0008.589 (0) Table wp_21_term_relationships: Total rows added: 1 in 0.00 seconds
+0008.594 (0) Table wp_21_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_term_relationships.table.gz - 0.4 KB)
+0008.609 (0) Table wp_21_term_taxonomy: Total expected rows (approximate): 0
+0008.615 (0) Table wp_21_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0008.620 (0) Table wp_21_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_term_taxonomy.table.gz - 0.4 KB)
+0008.645 (0) Table wp_21_termmeta: Total expected rows (approximate): 0
+0008.652 (0) Table wp_21_termmeta: Total rows added: 0 in 0.00 seconds
+0008.658 (0) Table wp_21_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_termmeta.table.gz - 0.4 KB)
+0008.674 (0) Table wp_21_terms: Total expected rows (approximate): 0
+0008.679 (0) Table wp_21_terms: Total rows added: 1 in 0.00 seconds
+0008.684 (0) Table wp_21_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_terms.table.gz - 0.4 KB)
+0008.700 (0) Table wp_22_aryo_activity_log: Total expected rows (approximate): 0
+0008.707 (0) Table wp_22_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0008.713 (0) Table wp_22_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_aryo_activity_log.table.gz - 0.4 KB)
+0008.729 (0) Table wp_22_commentmeta: Total expected rows (approximate): 0
+0008.736 (0) Table wp_22_commentmeta: Total rows added: 0 in 0.00 seconds
+0008.740 (0) Table wp_22_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_commentmeta.table.gz - 0.4 KB)
+0008.758 (0) Table wp_22_comments: Total expected rows (approximate): 0
+0008.763 (0) Table wp_22_comments: Total rows added: 1 in 0.00 seconds
+0008.768 (0) Table wp_22_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_comments.table.gz - 0.6 KB)
+0008.788 (0) Table wp_22_links: Total expected rows (approximate): 0
+0008.794 (0) Table wp_22_links: Total rows added: 0 in 0.00 seconds
+0008.799 (0) Table wp_22_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_links.table.gz - 0.4 KB)
+0008.817 (0) Table wp_22_options: Total expected rows (approximate): 111
+0008.823 (0) Table wp_22_options: Total rows added: 118 in 0.00 seconds
+0008.828 (0) Table wp_22_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_options.table.gz - 4 KB)
+0008.846 (0) Table wp_22_postmeta: Total expected rows (approximate): 0
+0008.852 (0) Table wp_22_postmeta: Total rows added: 1 in 0.00 seconds
+0008.856 (0) Table wp_22_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_postmeta.table.gz - 0.4 KB)
+0008.872 (0) Table wp_22_posts: Total expected rows (approximate): 2
+0008.879 (0) Table wp_22_posts: Total rows added: 2 in 0.00 seconds
+0008.888 (0) Table wp_22_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_posts.table.gz - 0.8 KB)
+0008.904 (0) Table wp_22_term_relationships: Total expected rows (approximate): 0
+0008.911 (0) Table wp_22_term_relationships: Total rows added: 1 in 0.00 seconds
+0008.916 (0) Table wp_22_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_term_relationships.table.gz - 0.4 KB)
+0008.937 (0) Table wp_22_term_taxonomy: Total expected rows (approximate): 0
+0008.942 (0) Table wp_22_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0008.947 (0) Table wp_22_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_term_taxonomy.table.gz - 0.4 KB)
+0008.962 (0) Table wp_22_termmeta: Total expected rows (approximate): 0
+0008.968 (0) Table wp_22_termmeta: Total rows added: 0 in 0.00 seconds
+0008.972 (0) Table wp_22_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_termmeta.table.gz - 0.4 KB)
+0008.994 (0) Table wp_22_terms: Total expected rows (approximate): 0
+0009.000 (0) Table wp_22_terms: Total rows added: 1 in 0.00 seconds
+0009.004 (0) Table wp_22_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_terms.table.gz - 0.4 KB)
+0009.021 (0) Table wp_23_aryo_activity_log: Total expected rows (approximate): 0
+0009.026 (0) Table wp_23_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0009.035 (0) Table wp_23_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_aryo_activity_log.table.gz - 0.4 KB)
+0009.052 (0) Table wp_23_commentmeta: Total expected rows (approximate): 0
+0009.057 (0) Table wp_23_commentmeta: Total rows added: 0 in 0.00 seconds
+0009.062 (0) Table wp_23_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_commentmeta.table.gz - 0.4 KB)
+0009.078 (0) Table wp_23_comments: Total expected rows (approximate): 0
+0009.088 (0) Table wp_23_comments: Total rows added: 1 in 0.00 seconds
+0009.093 (0) Table wp_23_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_comments.table.gz - 0.6 KB)
+0009.109 (0) Table wp_23_links: Total expected rows (approximate): 0
+0009.115 (0) Table wp_23_links: Total rows added: 0 in 0.00 seconds
+0009.120 (0) Table wp_23_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_links.table.gz - 0.4 KB)
+0009.141 (0) Table wp_23_options: Total expected rows (approximate): 113
+0009.147 (0) Table wp_23_options: Total rows added: 120 in 0.00 seconds
+0009.153 (0) Table wp_23_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_options.table.gz - 4.1 KB)
+0009.169 (0) Table wp_23_postmeta: Total expected rows (approximate): 0
+0009.174 (0) Table wp_23_postmeta: Total rows added: 1 in 0.00 seconds
+0009.179 (0) Table wp_23_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_postmeta.table.gz - 0.4 KB)
+0009.199 (0) Table wp_23_posts: Total expected rows (approximate): 2
+0009.205 (0) Table wp_23_posts: Total rows added: 2 in 0.00 seconds
+0009.210 (0) Table wp_23_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_posts.table.gz - 0.8 KB)
+0009.228 (0) Table wp_23_term_relationships: Total expected rows (approximate): 0
+0009.237 (0) Table wp_23_term_relationships: Total rows added: 1 in 0.00 seconds
+0009.242 (0) Table wp_23_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_term_relationships.table.gz - 0.4 KB)
+0009.258 (0) Table wp_23_term_taxonomy: Total expected rows (approximate): 0
+0009.263 (0) Table wp_23_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0009.267 (0) Table wp_23_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_term_taxonomy.table.gz - 0.4 KB)
+0009.289 (0) Table wp_23_termmeta: Total expected rows (approximate): 0
+0009.294 (0) Table wp_23_termmeta: Total rows added: 0 in 0.00 seconds
+0009.299 (0) Table wp_23_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_termmeta.table.gz - 0.4 KB)
+0009.315 (0) Table wp_23_terms: Total expected rows (approximate): 0
+0009.321 (0) Table wp_23_terms: Total rows added: 1 in 0.00 seconds
+0009.325 (0) Table wp_23_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_terms.table.gz - 0.4 KB)
+0009.347 (0) Table wp_24_aryo_activity_log: Total expected rows (approximate): 0
+0009.352 (0) Table wp_24_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0009.357 (0) Table wp_24_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_aryo_activity_log.table.gz - 0.4 KB)
+0009.373 (0) Table wp_24_commentmeta: Total expected rows (approximate): 0
+0009.378 (0) Table wp_24_commentmeta: Total rows added: 0 in 0.00 seconds
+0009.387 (0) Table wp_24_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_commentmeta.table.gz - 0.4 KB)
+0009.403 (0) Table wp_24_comments: Total expected rows (approximate): 0
+0009.409 (0) Table wp_24_comments: Total rows added: 1 in 0.00 seconds
+0009.414 (0) Table wp_24_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_comments.table.gz - 0.6 KB)
+0009.436 (0) Table wp_24_links: Total expected rows (approximate): 0
+0009.442 (0) Table wp_24_links: Total rows added: 0 in 0.00 seconds
+0009.447 (0) Table wp_24_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_links.table.gz - 0.4 KB)
+0009.463 (0) Table wp_24_options: Total expected rows (approximate): 98
+0009.469 (0) Table wp_24_options: Total rows added: 116 in 0.00 seconds
+0009.475 (0) Table wp_24_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_options.table.gz - 4.1 KB)
+0009.494 (0) Table wp_24_postmeta: Total expected rows (approximate): 0
+0009.499 (0) Table wp_24_postmeta: Total rows added: 1 in 0.00 seconds
+0009.504 (0) Table wp_24_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_postmeta.table.gz - 0.4 KB)
+0009.520 (0) Table wp_24_posts: Total expected rows (approximate): 2
+0009.526 (0) Table wp_24_posts: Total rows added: 2 in 0.00 seconds
+0009.535 (0) Table wp_24_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_posts.table.gz - 0.8 KB)
+0009.553 (0) Table wp_24_term_relationships: Total expected rows (approximate): 0
+0009.560 (0) Table wp_24_term_relationships: Total rows added: 1 in 0.00 seconds
+0009.565 (0) Table wp_24_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_term_relationships.table.gz - 0.4 KB)
+0009.581 (0) Table wp_24_term_taxonomy: Total expected rows (approximate): 0
+0009.588 (0) Table wp_24_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0009.593 (0) Table wp_24_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_term_taxonomy.table.gz - 0.4 KB)
+0009.610 (0) Table wp_24_termmeta: Total expected rows (approximate): 0
+0009.615 (0) Table wp_24_termmeta: Total rows added: 0 in 0.00 seconds
+0009.620 (0) Table wp_24_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_termmeta.table.gz - 0.4 KB)
+0009.641 (0) Table wp_24_terms: Total expected rows (approximate): 0
+0009.646 (0) Table wp_24_terms: Total rows added: 1 in 0.00 seconds
+0009.651 (0) Table wp_24_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_terms.table.gz - 0.4 KB)
+0009.667 (0) Table wp_25_aryo_activity_log: Total expected rows (approximate): 0
+0009.673 (0) Table wp_25_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0009.678 (0) Table wp_25_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_aryo_activity_log.table.gz - 0.4 KB)
+0009.698 (0) Table wp_25_commentmeta: Total expected rows (approximate): 0
+0009.704 (0) Table wp_25_commentmeta: Total rows added: 0 in 0.00 seconds
+0009.709 (0) Table wp_25_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_commentmeta.table.gz - 0.4 KB)
+0009.725 (0) Table wp_25_comments: Total expected rows (approximate): 0
+0009.736 (0) Table wp_25_comments: Total rows added: 1 in 0.00 seconds
+0009.741 (0) Table wp_25_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_comments.table.gz - 0.6 KB)
+0009.758 (0) Table wp_25_links: Total expected rows (approximate): 0
+0009.763 (0) Table wp_25_links: Total rows added: 0 in 0.00 seconds
+0009.769 (0) Table wp_25_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_links.table.gz - 0.4 KB)
+0009.788 (0) Table wp_25_options: Total expected rows (approximate): 105
+0009.794 (0) Table wp_25_options: Total rows added: 105 in 0.00 seconds
+0009.800 (0) Table wp_25_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_options.table.gz - 3.7 KB)
+0009.816 (0) Table wp_25_postmeta: Total expected rows (approximate): 0
+0009.821 (0) Table wp_25_postmeta: Total rows added: 1 in 0.00 seconds
+0009.826 (0) Table wp_25_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_postmeta.table.gz - 0.4 KB)
+0009.846 (0) Table wp_25_posts: Total expected rows (approximate): 2
+0009.852 (0) Table wp_25_posts: Total rows added: 2 in 0.00 seconds
+0009.857 (0) Table wp_25_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_posts.table.gz - 0.8 KB)
+0009.872 (0) Table wp_25_term_relationships: Total expected rows (approximate): 0
+0009.878 (0) Table wp_25_term_relationships: Total rows added: 1 in 0.00 seconds
+0009.887 (0) Table wp_25_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_term_relationships.table.gz - 0.4 KB)
+0009.903 (0) Table wp_25_term_taxonomy: Total expected rows (approximate): 0
+0009.908 (0) Table wp_25_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0009.913 (0) Table wp_25_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_term_taxonomy.table.gz - 0.4 KB)
+0009.936 (0) Table wp_25_termmeta: Total expected rows (approximate): 0
+0009.942 (0) Table wp_25_termmeta: Total rows added: 0 in 0.00 seconds
+0009.946 (0) Table wp_25_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_termmeta.table.gz - 0.4 KB)
+0009.962 (0) Table wp_25_terms: Total expected rows (approximate): 0
+0009.968 (0) Table wp_25_terms: Total rows added: 1 in 0.00 seconds
+0009.973 (0) Table wp_25_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_terms.table.gz - 0.4 KB)
+0009.994 (0) Table wp_26_aryo_activity_log: Total expected rows (approximate): 0
+0009.999 (0) Table wp_26_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0010.004 (0) Table wp_26_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_aryo_activity_log.table.gz - 0.4 KB)
+0010.020 (0) Table wp_26_commentmeta: Total expected rows (approximate): 0
+0010.024 (0) Table wp_26_commentmeta: Total rows added: 0 in 0.00 seconds
+0010.035 (0) Table wp_26_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_commentmeta.table.gz - 0.4 KB)
+0010.051 (0) Table wp_26_comments: Total expected rows (approximate): 0
+0010.056 (0) Table wp_26_comments: Total rows added: 1 in 0.00 seconds
+0010.061 (0) Table wp_26_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_comments.table.gz - 0.6 KB)
+0010.076 (0) Table wp_26_links: Total expected rows (approximate): 0
+0010.088 (0) Table wp_26_links: Total rows added: 0 in 0.00 seconds
+0010.093 (0) Table wp_26_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_links.table.gz - 0.4 KB)
+0010.109 (0) Table wp_26_options: Total expected rows (approximate): 105
+0010.115 (0) Table wp_26_options: Total rows added: 105 in 0.00 seconds
+0010.119 (0) Table wp_26_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_options.table.gz - 3.7 KB)
+0010.141 (0) Table wp_26_postmeta: Total expected rows (approximate): 0
+0010.147 (0) Table wp_26_postmeta: Total rows added: 1 in 0.00 seconds
+0010.151 (0) Table wp_26_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_postmeta.table.gz - 0.4 KB)
+0010.167 (0) Table wp_26_posts: Total expected rows (approximate): 2
+0010.173 (0) Table wp_26_posts: Total rows added: 2 in 0.00 seconds
+0010.178 (0) Table wp_26_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_posts.table.gz - 0.8 KB)
+0010.199 (0) Table wp_26_term_relationships: Total expected rows (approximate): 0
+0010.205 (0) Table wp_26_term_relationships: Total rows added: 1 in 0.00 seconds
+0010.210 (0) Table wp_26_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_term_relationships.table.gz - 0.4 KB)
+0010.227 (0) Table wp_26_term_taxonomy: Total expected rows (approximate): 0
+0010.236 (0) Table wp_26_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0010.241 (0) Table wp_26_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_term_taxonomy.table.gz - 0.4 KB)
+0010.256 (0) Table wp_26_termmeta: Total expected rows (approximate): 0
+0010.261 (0) Table wp_26_termmeta: Total rows added: 0 in 0.00 seconds
+0010.266 (0) Table wp_26_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_termmeta.table.gz - 0.4 KB)
+0010.289 (0) Table wp_26_terms: Total expected rows (approximate): 0
+0010.294 (0) Table wp_26_terms: Total rows added: 1 in 0.00 seconds
+0010.298 (0) Table wp_26_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_terms.table.gz - 0.4 KB)
+0010.314 (0) Table wp_27_aryo_activity_log: Total expected rows (approximate): 0
+0010.319 (0) Table wp_27_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0010.323 (0) Table wp_27_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_aryo_activity_log.table.gz - 0.4 KB)
+0010.346 (0) Table wp_27_commentmeta: Total expected rows (approximate): 0
+0010.352 (0) Table wp_27_commentmeta: Total rows added: 0 in 0.00 seconds
+0010.356 (0) Table wp_27_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_commentmeta.table.gz - 0.4 KB)
+0010.372 (0) Table wp_27_comments: Total expected rows (approximate): 0
+0010.378 (0) Table wp_27_comments: Total rows added: 1 in 0.00 seconds
+0010.387 (0) Table wp_27_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_comments.table.gz - 0.6 KB)
+0010.403 (0) Table wp_27_links: Total expected rows (approximate): 0
+0010.408 (0) Table wp_27_links: Total rows added: 0 in 0.00 seconds
+0010.414 (0) Table wp_27_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_links.table.gz - 0.4 KB)
+0010.436 (0) Table wp_27_options: Total expected rows (approximate): 121
+0010.442 (0) Table wp_27_options: Total rows added: 124 in 0.00 seconds
+0010.448 (0) Table wp_27_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_options.table.gz - 4.3 KB)
+0010.464 (0) Table wp_27_postmeta: Total expected rows (approximate): 8
+0010.471 (0) Table wp_27_postmeta: Total rows added: 10 in 0.00 seconds
+0010.477 (0) Table wp_27_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_postmeta.table.gz - 2.8 KB)
+0010.494 (0) Table wp_27_posts: Total expected rows (approximate): 6
+0010.500 (0) Table wp_27_posts: Total rows added: 6 in 0.00 seconds
+0010.505 (0) Table wp_27_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_posts.table.gz - 1.4 KB)
+0010.524 (0) Table wp_27_term_relationships: Total expected rows (approximate): 0
+0010.529 (0) Table wp_27_term_relationships: Total rows added: 1 in 0.00 seconds
+0010.538 (0) Table wp_27_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_term_relationships.table.gz - 0.4 KB)
+0010.553 (0) Table wp_27_term_taxonomy: Total expected rows (approximate): 0
+0010.559 (0) Table wp_27_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0010.564 (0) Table wp_27_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_term_taxonomy.table.gz - 0.4 KB)
+0010.587 (0) Table wp_27_termmeta: Total expected rows (approximate): 0
+0010.592 (0) Table wp_27_termmeta: Total rows added: 0 in 0.00 seconds
+0010.597 (0) Table wp_27_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_termmeta.table.gz - 0.4 KB)
+0010.613 (0) Table wp_27_terms: Total expected rows (approximate): 0
+0010.619 (0) Table wp_27_terms: Total rows added: 1 in 0.00 seconds
+0010.624 (0) Table wp_27_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_terms.table.gz - 0.4 KB)
+0010.644 (0) Table wp_28_aryo_activity_log: Total expected rows (approximate): 0
+0010.649 (0) Table wp_28_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0010.653 (0) Table wp_28_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_aryo_activity_log.table.gz - 0.4 KB)
+0010.669 (0) Table wp_28_commentmeta: Total expected rows (approximate): 0
+0010.675 (0) Table wp_28_commentmeta: Total rows added: 0 in 0.00 seconds
+0010.686 (0) Table wp_28_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_commentmeta.table.gz - 0.4 KB)
+0010.704 (0) Table wp_28_comments: Total expected rows (approximate): 0
+0010.709 (0) Table wp_28_comments: Total rows added: 1 in 0.00 seconds
+0010.714 (0) Table wp_28_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_comments.table.gz - 0.6 KB)
+0010.730 (0) Table wp_28_links: Total expected rows (approximate): 0
+0010.739 (0) Table wp_28_links: Total rows added: 0 in 0.00 seconds
+0010.744 (0) Table wp_28_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_links.table.gz - 0.4 KB)
+0010.760 (0) Table wp_28_options: Total expected rows (approximate): 105
+0010.766 (0) Table wp_28_options: Total rows added: 117 in 0.00 seconds
+0010.771 (0) Table wp_28_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_options.table.gz - 4.1 KB)
+0010.793 (0) Table wp_28_postmeta: Total expected rows (approximate): 7
+0010.798 (0) Table wp_28_postmeta: Total rows added: 7 in 0.00 seconds
+0010.804 (0) Table wp_28_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_postmeta.table.gz - 1.4 KB)
+0010.820 (0) Table wp_28_posts: Total expected rows (approximate): 2
+0010.826 (0) Table wp_28_posts: Total rows added: 3 in 0.00 seconds
+0010.831 (0) Table wp_28_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_posts.table.gz - 1.4 KB)
+0010.851 (0) Table wp_28_term_relationships: Total expected rows (approximate): 0
+0010.858 (0) Table wp_28_term_relationships: Total rows added: 1 in 0.00 seconds
+0010.863 (0) Table wp_28_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_term_relationships.table.gz - 0.4 KB)
+0010.879 (0) Table wp_28_term_taxonomy: Total expected rows (approximate): 0
+0010.886 (0) Table wp_28_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0010.891 (0) Table wp_28_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_term_taxonomy.table.gz - 0.4 KB)
+0010.907 (0) Table wp_28_termmeta: Total expected rows (approximate): 0
+0010.912 (0) Table wp_28_termmeta: Total rows added: 0 in 0.00 seconds
+0010.918 (0) Table wp_28_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_termmeta.table.gz - 0.4 KB)
+0010.938 (0) Table wp_28_terms: Total expected rows (approximate): 0
+0010.944 (0) Table wp_28_terms: Total rows added: 1 in 0.00 seconds
+0010.949 (0) Table wp_28_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_terms.table.gz - 0.4 KB)
+0010.964 (0) Table wp_29_aryo_activity_log: Total expected rows (approximate): 0
+0010.970 (0) Table wp_29_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0010.975 (0) Table wp_29_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_aryo_activity_log.table.gz - 0.4 KB)
+0010.997 (0) Table wp_29_commentmeta: Total expected rows (approximate): 0
+0011.002 (0) Table wp_29_commentmeta: Total rows added: 0 in 0.00 seconds
+0011.007 (0) Table wp_29_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_commentmeta.table.gz - 0.4 KB)
+0011.024 (0) Table wp_29_comments: Total expected rows (approximate): 0
+0011.029 (0) Table wp_29_comments: Total rows added: 1 in 0.00 seconds
+0011.038 (0) Table wp_29_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_comments.table.gz - 0.6 KB)
+0011.054 (0) Table wp_29_links: Total expected rows (approximate): 0
+0011.059 (0) Table wp_29_links: Total rows added: 0 in 0.00 seconds
+0011.065 (0) Table wp_29_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_links.table.gz - 0.4 KB)
+0011.086 (0) Table wp_29_options: Total expected rows (approximate): 105
+0011.094 (0) Table wp_29_options: Total rows added: 105 in 0.00 seconds
+0011.099 (0) Table wp_29_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_options.table.gz - 3.7 KB)
+0011.115 (0) Table wp_29_postmeta: Total expected rows (approximate): 0
+0011.120 (0) Table wp_29_postmeta: Total rows added: 1 in 0.00 seconds
+0011.125 (0) Table wp_29_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_postmeta.table.gz - 0.4 KB)
+0011.143 (0) Table wp_29_posts: Total expected rows (approximate): 2
+0011.149 (0) Table wp_29_posts: Total rows added: 2 in 0.00 seconds
+0011.155 (0) Table wp_29_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_posts.table.gz - 0.8 KB)
+0011.177 (0) Table wp_29_term_relationships: Total expected rows (approximate): 0
+0011.184 (0) Table wp_29_term_relationships: Total rows added: 1 in 0.00 seconds
+0011.189 (0) Table wp_29_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_term_relationships.table.gz - 0.4 KB)
+0011.204 (0) Table wp_29_term_taxonomy: Total expected rows (approximate): 0
+0011.209 (0) Table wp_29_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0011.214 (0) Table wp_29_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_term_taxonomy.table.gz - 0.4 KB)
+0011.237 (0) Table wp_29_termmeta: Total expected rows (approximate): 0
+0011.243 (0) Table wp_29_termmeta: Total rows added: 0 in 0.00 seconds
+0011.247 (0) Table wp_29_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_termmeta.table.gz - 0.4 KB)
+0011.264 (0) Table wp_29_terms: Total expected rows (approximate): 0
+0011.269 (0) Table wp_29_terms: Total rows added: 1 in 0.00 seconds
+0011.274 (0) Table wp_29_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_terms.table.gz - 0.4 KB)
+0011.295 (0) Table wp_30_aryo_activity_log: Total expected rows (approximate): 0
+0011.300 (0) Table wp_30_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0011.306 (0) Table wp_30_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_aryo_activity_log.table.gz - 0.4 KB)
+0011.323 (0) Table wp_30_commentmeta: Total expected rows (approximate): 0
+0011.329 (0) Table wp_30_commentmeta: Total rows added: 0 in 0.00 seconds
+0011.335 (0) Table wp_30_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_commentmeta.table.gz - 0.4 KB)
+0011.351 (0) Table wp_30_comments: Total expected rows (approximate): 0
+0011.356 (0) Table wp_30_comments: Total rows added: 1 in 0.00 seconds
+0011.361 (0) Table wp_30_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_comments.table.gz - 0.6 KB)
+0011.378 (0) Table wp_30_links: Total expected rows (approximate): 0
+0011.388 (0) Table wp_30_links: Total rows added: 0 in 0.00 seconds
+0011.393 (0) Table wp_30_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_links.table.gz - 0.4 KB)
+0011.411 (0) Table wp_30_options: Total expected rows (approximate): 122
+0011.417 (0) Table wp_30_options: Total rows added: 122 in 0.00 seconds
+0011.423 (0) Table wp_30_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_options.table.gz - 4.2 KB)
+0011.442 (0) Table wp_30_postmeta: Total expected rows (approximate): 7
+0011.448 (0) Table wp_30_postmeta: Total rows added: 7 in 0.00 seconds
+0011.453 (0) Table wp_30_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_postmeta.table.gz - 1.4 KB)
+0011.469 (0) Table wp_30_posts: Total expected rows (approximate): 3
+0011.475 (0) Table wp_30_posts: Total rows added: 3 in 0.00 seconds
+0011.480 (0) Table wp_30_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_posts.table.gz - 1.4 KB)
+0011.499 (0) Table wp_30_term_relationships: Total expected rows (approximate): 0
+0011.507 (0) Table wp_30_term_relationships: Total rows added: 1 in 0.00 seconds
+0011.512 (0) Table wp_30_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_term_relationships.table.gz - 0.4 KB)
+0011.529 (0) Table wp_30_term_taxonomy: Total expected rows (approximate): 0
+0011.536 (0) Table wp_30_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0011.543 (0) Table wp_30_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_term_taxonomy.table.gz - 0.4 KB)
+0011.560 (0) Table wp_30_termmeta: Total expected rows (approximate): 0
+0011.566 (0) Table wp_30_termmeta: Total rows added: 0 in 0.00 seconds
+0011.571 (0) Table wp_30_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_termmeta.table.gz - 0.4 KB)
+0011.588 (0) Table wp_30_terms: Total expected rows (approximate): 0
+0011.594 (0) Table wp_30_terms: Total rows added: 1 in 0.00 seconds
+0011.598 (0) Table wp_30_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_terms.table.gz - 0.4 KB)
+0011.617 (0) Table wp_31_aryo_activity_log: Total expected rows (approximate): 0
+0011.622 (0) Table wp_31_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0011.627 (0) Table wp_31_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_aryo_activity_log.table.gz - 0.4 KB)
+0011.649 (0) Table wp_31_commentmeta: Total expected rows (approximate): 0
+0011.655 (0) Table wp_31_commentmeta: Total rows added: 0 in 0.00 seconds
+0011.659 (0) Table wp_31_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_commentmeta.table.gz - 0.4 KB)
+0011.676 (0) Table wp_31_comments: Total expected rows (approximate): 0
+0011.681 (0) Table wp_31_comments: Total rows added: 1 in 0.00 seconds
+0011.688 (0) Table wp_31_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_comments.table.gz - 0.6 KB)
+0011.704 (0) Table wp_31_links: Total expected rows (approximate): 0
+0011.710 (0) Table wp_31_links: Total rows added: 0 in 0.00 seconds
+0011.715 (0) Table wp_31_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_links.table.gz - 0.4 KB)
+0011.736 (0) Table wp_31_options: Total expected rows (approximate): 107
+0011.743 (0) Table wp_31_options: Total rows added: 117 in 0.00 seconds
+0011.748 (0) Table wp_31_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_options.table.gz - 4.1 KB)
+0011.766 (0) Table wp_31_postmeta: Total expected rows (approximate): 7
+0011.771 (0) Table wp_31_postmeta: Total rows added: 7 in 0.00 seconds
+0011.776 (0) Table wp_31_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_postmeta.table.gz - 1.4 KB)
+0011.794 (0) Table wp_31_posts: Total expected rows (approximate): 2
+0011.800 (0) Table wp_31_posts: Total rows added: 3 in 0.00 seconds
+0011.805 (0) Table wp_31_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_posts.table.gz - 1.4 KB)
+0011.820 (0) Table wp_31_term_relationships: Total expected rows (approximate): 0
+0011.827 (0) Table wp_31_term_relationships: Total rows added: 1 in 0.00 seconds
+0011.836 (0) Table wp_31_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_term_relationships.table.gz - 0.4 KB)
+0011.853 (0) Table wp_31_term_taxonomy: Total expected rows (approximate): 0
+0011.858 (0) Table wp_31_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0011.863 (0) Table wp_31_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_term_taxonomy.table.gz - 0.4 KB)
+0011.879 (0) Table wp_31_termmeta: Total expected rows (approximate): 0
+0011.888 (0) Table wp_31_termmeta: Total rows added: 0 in 0.00 seconds
+0011.893 (0) Table wp_31_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_termmeta.table.gz - 0.4 KB)
+0011.909 (0) Table wp_31_terms: Total expected rows (approximate): 0
+0011.914 (0) Table wp_31_terms: Total rows added: 1 in 0.00 seconds
+0011.920 (0) Table wp_31_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_terms.table.gz - 0.4 KB)
+0011.942 (0) Table wp_32_aryo_activity_log: Total expected rows (approximate): 0
+0011.948 (0) Table wp_32_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0011.952 (0) Table wp_32_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_aryo_activity_log.table.gz - 0.4 KB)
+0011.968 (0) Table wp_32_commentmeta: Total expected rows (approximate): 0
+0011.973 (0) Table wp_32_commentmeta: Total rows added: 0 in 0.00 seconds
+0011.978 (0) Table wp_32_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_commentmeta.table.gz - 0.4 KB)
+0011.999 (0) Table wp_32_comments: Total expected rows (approximate): 0
+0012.005 (0) Table wp_32_comments: Total rows added: 1 in 0.00 seconds
+0012.010 (0) Table wp_32_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_comments.table.gz - 0.6 KB)
+0012.026 (0) Table wp_32_links: Total expected rows (approximate): 0
+0012.036 (0) Table wp_32_links: Total rows added: 0 in 0.00 seconds
+0012.041 (0) Table wp_32_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_links.table.gz - 0.4 KB)
+0012.058 (0) Table wp_32_options: Total expected rows (approximate): 123
+0012.064 (0) Table wp_32_options: Total rows added: 122 in 0.00 seconds
+0012.069 (0) Table wp_32_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_options.table.gz - 4.3 KB)
+0012.088 (0) Table wp_32_postmeta: Total expected rows (approximate): 7
+0012.096 (0) Table wp_32_postmeta: Total rows added: 7 in 0.00 seconds
+0012.100 (0) Table wp_32_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_postmeta.table.gz - 2.8 KB)
+0012.117 (0) Table wp_32_posts: Total expected rows (approximate): 6
+0012.122 (0) Table wp_32_posts: Total rows added: 7 in 0.00 seconds
+0012.127 (0) Table wp_32_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_posts.table.gz - 1.4 KB)
+0012.147 (0) Table wp_32_term_relationships: Total expected rows (approximate): 0
+0012.153 (0) Table wp_32_term_relationships: Total rows added: 1 in 0.00 seconds
+0012.158 (0) Table wp_32_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_term_relationships.table.gz - 0.4 KB)
+0012.174 (0) Table wp_32_term_taxonomy: Total expected rows (approximate): 0
+0012.180 (0) Table wp_32_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0012.188 (0) Table wp_32_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_term_taxonomy.table.gz - 0.4 KB)
+0012.203 (0) Table wp_32_termmeta: Total expected rows (approximate): 0
+0012.210 (0) Table wp_32_termmeta: Total rows added: 0 in 0.00 seconds
+0012.214 (0) Table wp_32_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_termmeta.table.gz - 0.4 KB)
+0012.236 (0) Table wp_32_terms: Total expected rows (approximate): 0
+0012.242 (0) Table wp_32_terms: Total rows added: 1 in 0.00 seconds
+0012.247 (0) Table wp_32_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_terms.table.gz - 0.4 KB)
+0012.264 (0) Table wp_33_aryo_activity_log: Total expected rows (approximate): 0
+0012.269 (0) Table wp_33_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0012.275 (0) Table wp_33_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_aryo_activity_log.table.gz - 0.4 KB)
+0012.295 (0) Table wp_33_commentmeta: Total expected rows (approximate): 0
+0012.302 (0) Table wp_33_commentmeta: Total rows added: 0 in 0.00 seconds
+0012.307 (0) Table wp_33_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_commentmeta.table.gz - 0.4 KB)
+0012.322 (0) Table wp_33_comments: Total expected rows (approximate): 0
+0012.327 (0) Table wp_33_comments: Total rows added: 1 in 0.00 seconds
+0012.335 (0) Table wp_33_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_comments.table.gz - 0.6 KB)
+0012.352 (0) Table wp_33_links: Total expected rows (approximate): 0
+0012.357 (0) Table wp_33_links: Total rows added: 0 in 0.00 seconds
+0012.361 (0) Table wp_33_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_links.table.gz - 0.4 KB)
+0012.377 (0) Table wp_33_options: Total expected rows (approximate): 132
+0012.407 (0) Table wp_33_options: Total rows added: 134 in 0.02 seconds
+0012.412 (0) Table wp_33_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_options.table.gz - 82.1 KB)
+0012.428 (0) Table wp_33_postmeta: Total expected rows (approximate): 0
+0012.434 (0) Table wp_33_postmeta: Total rows added: 1 in 0.00 seconds
+0012.441 (0) Table wp_33_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_postmeta.table.gz - 0.4 KB)
+0012.458 (0) Table wp_33_posts: Total expected rows (approximate): 2
+0012.464 (0) Table wp_33_posts: Total rows added: 3 in 0.00 seconds
+0012.472 (0) Table wp_33_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_posts.table.gz - 0.9 KB)
+0012.488 (0) Table wp_33_term_relationships: Total expected rows (approximate): 0
+0012.494 (0) Table wp_33_term_relationships: Total rows added: 1 in 0.00 seconds
+0012.500 (0) Table wp_33_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_term_relationships.table.gz - 0.4 KB)
+0012.517 (0) Table wp_33_term_taxonomy: Total expected rows (approximate): 0
+0012.523 (0) Table wp_33_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0012.529 (0) Table wp_33_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_term_taxonomy.table.gz - 0.4 KB)
+0012.550 (0) Table wp_33_termmeta: Total expected rows (approximate): 0
+0012.555 (0) Table wp_33_termmeta: Total rows added: 0 in 0.00 seconds
+0012.561 (0) Table wp_33_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_termmeta.table.gz - 0.4 KB)
+0012.578 (0) Table wp_33_terms: Total expected rows (approximate): 0
+0012.583 (0) Table wp_33_terms: Total rows added: 1 in 0.00 seconds
+0012.588 (0) Table wp_33_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_terms.table.gz - 0.4 KB)
+0012.605 (0) Table wp_34_aryo_activity_log: Total expected rows (approximate): 0
+0012.610 (0) Table wp_34_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0012.615 (0) Table wp_34_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_aryo_activity_log.table.gz - 0.4 KB)
+0012.636 (0) Table wp_34_commentmeta: Total expected rows (approximate): 0
+0012.642 (0) Table wp_34_commentmeta: Total rows added: 0 in 0.00 seconds
+0012.647 (0) Table wp_34_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_commentmeta.table.gz - 0.4 KB)
+0012.663 (0) Table wp_34_comments: Total expected rows (approximate): 0
+0012.669 (0) Table wp_34_comments: Total rows added: 1 in 0.00 seconds
+0012.674 (0) Table wp_34_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_comments.table.gz - 0.6 KB)
+0012.696 (0) Table wp_34_links: Total expected rows (approximate): 0
+0012.701 (0) Table wp_34_links: Total rows added: 0 in 0.00 seconds
+0012.706 (0) Table wp_34_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_links.table.gz - 0.4 KB)
+0012.722 (0) Table wp_34_options: Total expected rows (approximate): 128
+0012.729 (0) Table wp_34_options: Total rows added: 128 in 0.00 seconds
+0012.736 (0) Table wp_34_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_options.table.gz - 5.6 KB)
+0012.754 (0) Table wp_34_postmeta: Total expected rows (approximate): 7
+0012.760 (0) Table wp_34_postmeta: Total rows added: 7 in 0.00 seconds
+0012.765 (0) Table wp_34_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_postmeta.table.gz - 3.3 KB)
+0012.786 (0) Table wp_34_posts: Total expected rows (approximate): 6
+0012.793 (0) Table wp_34_posts: Total rows added: 6 in 0.00 seconds
+0012.798 (0) Table wp_34_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_posts.table.gz - 1.5 KB)
+0012.815 (0) Table wp_34_term_relationships: Total expected rows (approximate): 0
+0012.821 (0) Table wp_34_term_relationships: Total rows added: 1 in 0.00 seconds
+0012.826 (0) Table wp_34_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_term_relationships.table.gz - 0.4 KB)
+0012.844 (0) Table wp_34_term_taxonomy: Total expected rows (approximate): 0
+0012.850 (0) Table wp_34_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0012.856 (0) Table wp_34_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_term_taxonomy.table.gz - 0.4 KB)
+0012.873 (0) Table wp_34_termmeta: Total expected rows (approximate): 0
+0012.879 (0) Table wp_34_termmeta: Total rows added: 0 in 0.00 seconds
+0012.886 (0) Table wp_34_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_termmeta.table.gz - 0.4 KB)
+0012.902 (0) Table wp_34_terms: Total expected rows (approximate): 0
+0012.907 (0) Table wp_34_terms: Total rows added: 1 in 0.00 seconds
+0012.912 (0) Table wp_34_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_terms.table.gz - 0.4 KB)
+0012.930 (0) Table wp_35_aryo_activity_log: Total expected rows (approximate): 8
+0012.939 (0) Table wp_35_aryo_activity_log: Total rows added: 8 in 0.00 seconds
+0012.944 (0) Table wp_35_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_aryo_activity_log.table.gz - 0.6 KB)
+0012.961 (0) Table wp_35_commentmeta: Total expected rows (approximate): 0
+0012.966 (0) Table wp_35_commentmeta: Total rows added: 0 in 0.00 seconds
+0012.971 (0) Table wp_35_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_commentmeta.table.gz - 0.4 KB)
+0012.992 (0) Table wp_35_comments: Total expected rows (approximate): 0
+0012.998 (0) Table wp_35_comments: Total rows added: 1 in 0.00 seconds
+0013.003 (0) Table wp_35_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_comments.table.gz - 0.6 KB)
+0013.018 (0) Table wp_35_links: Total expected rows (approximate): 0
+0013.024 (0) Table wp_35_links: Total rows added: 0 in 0.00 seconds
+0013.028 (0) Table wp_35_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_links.table.gz - 0.4 KB)
+0013.049 (0) Table wp_35_options: Total expected rows (approximate): 141
+0013.078 (0) Table wp_35_options: Total rows added: 144 in 0.02 seconds
+0013.083 (0) Table wp_35_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_options.table.gz - 126.4 KB)
+0013.099 (0) Table wp_35_postmeta: Total expected rows (approximate): 9
+0013.104 (0) Table wp_35_postmeta: Total rows added: 9 in 0.00 seconds
+0013.109 (0) Table wp_35_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_postmeta.table.gz - 1.4 KB)
+0013.125 (0) Table wp_35_posts: Total expected rows (approximate): 9
+0013.137 (0) Table wp_35_posts: Total rows added: 9 in 0.00 seconds
+0013.142 (0) Table wp_35_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_posts.table.gz - 1.4 KB)
+0013.157 (0) Table wp_35_term_relationships: Total expected rows (approximate): 0
+0013.164 (0) Table wp_35_term_relationships: Total rows added: 1 in 0.00 seconds
+0013.173 (0) Table wp_35_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_term_relationships.table.gz - 0.4 KB)
+0013.189 (0) Table wp_35_term_taxonomy: Total expected rows (approximate): 0
+0013.195 (0) Table wp_35_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0013.200 (0) Table wp_35_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_term_taxonomy.table.gz - 0.4 KB)
+0013.216 (0) Table wp_35_termmeta: Total expected rows (approximate): 0
+0013.221 (0) Table wp_35_termmeta: Total rows added: 0 in 0.00 seconds
+0013.226 (0) Table wp_35_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_termmeta.table.gz - 0.4 KB)
+0013.248 (0) Table wp_35_terms: Total expected rows (approximate): 0
+0013.254 (0) Table wp_35_terms: Total rows added: 1 in 0.00 seconds
+0013.259 (0) Table wp_35_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_terms.table.gz - 0.4 KB)
+0013.274 (0) Table wp_36_aryo_activity_log: Total expected rows (approximate): 11
+0013.280 (0) Table wp_36_aryo_activity_log: Total rows added: 13 in 0.00 seconds
+0013.288 (0) Table wp_36_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_aryo_activity_log.table.gz - 0.7 KB)
+0013.303 (0) Table wp_36_commentmeta: Total expected rows (approximate): 0
+0013.309 (0) Table wp_36_commentmeta: Total rows added: 0 in 0.00 seconds
+0013.313 (0) Table wp_36_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_commentmeta.table.gz - 0.4 KB)
+0013.329 (0) Table wp_36_comments: Total expected rows (approximate): 0
+0013.339 (0) Table wp_36_comments: Total rows added: 1 in 0.00 seconds
+0013.344 (0) Table wp_36_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_comments.table.gz - 0.6 KB)
+0013.358 (0) Table wp_36_links: Total expected rows (approximate): 0
+0013.364 (0) Table wp_36_links: Total rows added: 0 in 0.00 seconds
+0013.369 (0) Table wp_36_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_links.table.gz - 0.4 KB)
+0013.389 (0) Table wp_36_options: Total expected rows (approximate): 137
+0013.395 (0) Table wp_36_options: Total rows added: 137 in 0.00 seconds
+0013.400 (0) Table wp_36_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_options.table.gz - 5.8 KB)
+0013.416 (0) Table wp_36_postmeta: Total expected rows (approximate): 18
+0013.423 (0) Table wp_36_postmeta: Total rows added: 17 in 0.00 seconds
+0013.428 (0) Table wp_36_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_postmeta.table.gz - 4.8 KB)
+0013.443 (0) Table wp_36_posts: Total expected rows (approximate): 12
+0013.449 (0) Table wp_36_posts: Total rows added: 13 in 0.00 seconds
+0013.454 (0) Table wp_36_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_posts.table.gz - 1.7 KB)
+0013.471 (0) Table wp_36_term_relationships: Total expected rows (approximate): 0
+0013.476 (0) Table wp_36_term_relationships: Total rows added: 1 in 0.00 seconds
+0013.488 (0) Table wp_36_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_term_relationships.table.gz - 0.4 KB)
+0013.505 (0) Table wp_36_term_taxonomy: Total expected rows (approximate): 0
+0013.511 (0) Table wp_36_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0013.516 (0) Table wp_36_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_term_taxonomy.table.gz - 0.4 KB)
+0013.532 (0) Table wp_36_termmeta: Total expected rows (approximate): 0
+0013.539 (0) Table wp_36_termmeta: Total rows added: 0 in 0.00 seconds
+0013.543 (0) Table wp_36_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_termmeta.table.gz - 0.4 KB)
+0013.560 (0) Table wp_36_terms: Total expected rows (approximate): 0
+0013.566 (0) Table wp_36_terms: Total rows added: 1 in 0.00 seconds
+0013.571 (0) Table wp_36_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_terms.table.gz - 0.4 KB)
+0013.595 (0) Table wp_37_aryo_activity_log: Total expected rows (approximate): 0
+0013.600 (0) Table wp_37_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0013.605 (0) Table wp_37_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_aryo_activity_log.table.gz - 0.4 KB)
+0013.622 (0) Table wp_37_commentmeta: Total expected rows (approximate): 0
+0013.627 (0) Table wp_37_commentmeta: Total rows added: 0 in 0.00 seconds
+0013.632 (0) Table wp_37_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_commentmeta.table.gz - 0.4 KB)
+0013.649 (0) Table wp_37_comments: Total expected rows (approximate): 1
+0013.654 (0) Table wp_37_comments: Total rows added: 1 in 0.00 seconds
+0013.659 (0) Table wp_37_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_comments.table.gz - 0.6 KB)
+0013.675 (0) Table wp_37_links: Total expected rows (approximate): 0
+0013.688 (0) Table wp_37_links: Total rows added: 0 in 0.00 seconds
+0013.694 (0) Table wp_37_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_links.table.gz - 0.4 KB)
+0013.713 (0) Table wp_37_options: Total expected rows (approximate): 124
+0013.721 (0) Table wp_37_options: Total rows added: 124 in 0.00 seconds
+0013.725 (0) Table wp_37_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_options.table.gz - 5.6 KB)
+0013.741 (0) Table wp_37_postmeta: Total expected rows (approximate): 9
+0013.747 (0) Table wp_37_postmeta: Total rows added: 9 in 0.00 seconds
+0013.752 (0) Table wp_37_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_postmeta.table.gz - 1.5 KB)
+0013.768 (0) Table wp_37_posts: Total expected rows (approximate): 3
+0013.774 (0) Table wp_37_posts: Total rows added: 3 in 0.00 seconds
+0013.779 (0) Table wp_37_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_posts.table.gz - 1.5 KB)
+0013.799 (0) Table wp_37_term_relationships: Total expected rows (approximate): 1
+0013.805 (0) Table wp_37_term_relationships: Total rows added: 1 in 0.00 seconds
+0013.809 (0) Table wp_37_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_term_relationships.table.gz - 0.4 KB)
+0013.825 (0) Table wp_37_term_taxonomy: Total expected rows (approximate): 1
+0013.830 (0) Table wp_37_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0013.838 (0) Table wp_37_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_term_taxonomy.table.gz - 0.4 KB)
+0013.855 (0) Table wp_37_termmeta: Total expected rows (approximate): 0
+0013.860 (0) Table wp_37_termmeta: Total rows added: 0 in 0.00 seconds
+0013.865 (0) Table wp_37_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_termmeta.table.gz - 0.4 KB)
+0013.889 (0) Table wp_37_terms: Total expected rows (approximate): 1
+0013.895 (0) Table wp_37_terms: Total rows added: 1 in 0.00 seconds
+0013.901 (0) Table wp_37_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_terms.table.gz - 0.4 KB)
+0013.917 (0) Table wp_38_aryo_activity_log: Total expected rows (approximate): 3
+0013.923 (0) Table wp_38_aryo_activity_log: Total rows added: 3 in 0.00 seconds
+0013.928 (0) Table wp_38_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_aryo_activity_log.table.gz - 0.5 KB)
+0013.944 (0) Table wp_38_commentmeta: Total expected rows (approximate): 0
+0013.949 (0) Table wp_38_commentmeta: Total rows added: 0 in 0.00 seconds
+0013.954 (0) Table wp_38_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_commentmeta.table.gz - 0.4 KB)
+0013.970 (0) Table wp_38_comments: Total expected rows (approximate): 1
+0013.976 (0) Table wp_38_comments: Total rows added: 1 in 0.00 seconds
+0013.988 (0) Table wp_38_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_comments.table.gz - 0.6 KB)
+0014.004 (0) Table wp_38_links: Total expected rows (approximate): 0
+0014.009 (0) Table wp_38_links: Total rows added: 0 in 0.00 seconds
+0014.014 (0) Table wp_38_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_links.table.gz - 0.4 KB)
+0014.030 (0) Table wp_38_options: Total expected rows (approximate): 130
+0014.039 (0) Table wp_38_options: Total rows added: 130 in 0.00 seconds
+0014.044 (0) Table wp_38_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_options.table.gz - 5.6 KB)
+0014.061 (0) Table wp_38_postmeta: Total expected rows (approximate): 7
+0014.067 (0) Table wp_38_postmeta: Total rows added: 7 in 0.00 seconds
+0014.073 (0) Table wp_38_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_postmeta.table.gz - 2.9 KB)
+0014.094 (0) Table wp_38_posts: Total expected rows (approximate): 4
+0014.099 (0) Table wp_38_posts: Total rows added: 4 in 0.00 seconds
+0014.104 (0) Table wp_38_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_posts.table.gz - 1.1 KB)
+0014.120 (0) Table wp_38_term_relationships: Total expected rows (approximate): 1
+0014.127 (0) Table wp_38_term_relationships: Total rows added: 1 in 0.00 seconds
+0014.133 (0) Table wp_38_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_term_relationships.table.gz - 0.4 KB)
+0014.149 (0) Table wp_38_term_taxonomy: Total expected rows (approximate): 1
+0014.154 (0) Table wp_38_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0014.159 (0) Table wp_38_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_term_taxonomy.table.gz - 0.4 KB)
+0014.175 (0) Table wp_38_termmeta: Total expected rows (approximate): 0
+0014.188 (0) Table wp_38_termmeta: Total rows added: 0 in 0.00 seconds
+0014.193 (0) Table wp_38_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_termmeta.table.gz - 0.4 KB)
+0014.210 (0) Table wp_38_terms: Total expected rows (approximate): 1
+0014.215 (0) Table wp_38_terms: Total rows added: 1 in 0.00 seconds
+0014.220 (0) Table wp_38_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_terms.table.gz - 0.4 KB)
+0014.239 (0) Table wp_4_aryo_activity_log: Total expected rows (approximate): 0
+0014.244 (0) Table wp_4_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0014.249 (0) Table wp_4_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_aryo_activity_log.table.gz - 0.4 KB)
+0014.265 (0) Table wp_4_commentmeta: Total expected rows (approximate): 0
+0014.270 (0) Table wp_4_commentmeta: Total rows added: 0 in 0.00 seconds
+0014.275 (0) Table wp_4_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_commentmeta.table.gz - 0.4 KB)
+0014.299 (0) Table wp_4_comments: Total expected rows (approximate): 0
+0014.305 (0) Table wp_4_comments: Total rows added: 1 in 0.00 seconds
+0014.310 (0) Table wp_4_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_comments.table.gz - 0.6 KB)
+0014.326 (0) Table wp_4_links: Total expected rows (approximate): 0
+0014.331 (0) Table wp_4_links: Total rows added: 0 in 0.00 seconds
+0014.338 (0) Table wp_4_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_links.table.gz - 0.4 KB)
+0014.355 (0) Table wp_4_options: Total expected rows (approximate): 113
+0014.374 (0) Table wp_4_options: Total rows added: 120 in 0.01 seconds
+0014.379 (0) Table wp_4_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_options.table.gz - 82.6 KB)
+0014.395 (0) Table wp_4_postmeta: Total expected rows (approximate): 0
+0014.401 (0) Table wp_4_postmeta: Total rows added: 1 in 0.00 seconds
+0014.406 (0) Table wp_4_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_postmeta.table.gz - 0.4 KB)
+0014.424 (0) Table wp_4_posts: Total expected rows (approximate): 2
+0014.430 (0) Table wp_4_posts: Total rows added: 3 in 0.00 seconds
+0014.436 (0) Table wp_4_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_posts.table.gz - 0.9 KB)
+0014.452 (0) Table wp_4_term_relationships: Total expected rows (approximate): 0
+0014.458 (0) Table wp_4_term_relationships: Total rows added: 1 in 0.00 seconds
+0014.463 (0) Table wp_4_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_term_relationships.table.gz - 0.4 KB)
+0014.480 (0) Table wp_4_term_taxonomy: Total expected rows (approximate): 0
+0014.489 (0) Table wp_4_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0014.494 (0) Table wp_4_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_term_taxonomy.table.gz - 0.4 KB)
+0014.509 (0) Table wp_4_termmeta: Total expected rows (approximate): 0
+0014.514 (0) Table wp_4_termmeta: Total rows added: 0 in 0.00 seconds
+0014.523 (0) Table wp_4_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_termmeta.table.gz - 0.4 KB)
+0014.544 (0) Table wp_4_terms: Total expected rows (approximate): 0
+0014.550 (0) Table wp_4_terms: Total rows added: 1 in 0.00 seconds
+0014.554 (0) Table wp_4_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_terms.table.gz - 0.4 KB)
+0014.575 (0) Table wp_5_aryo_activity_log: Total expected rows (approximate): 0
+0014.592 (0) Table wp_5_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0014.597 (0) Table wp_5_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_aryo_activity_log.table.gz - 0.4 KB)
+0014.611 (0) Table wp_5_commentmeta: Total expected rows (approximate): 0
+0014.616 (0) Table wp_5_commentmeta: Total rows added: 0 in 0.00 seconds
+0014.621 (0) Table wp_5_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_commentmeta.table.gz - 0.4 KB)
+0014.637 (0) Table wp_5_comments: Total expected rows (approximate): 0
+0014.643 (0) Table wp_5_comments: Total rows added: 1 in 0.00 seconds
+0014.647 (0) Table wp_5_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_comments.table.gz - 0.6 KB)
+0014.665 (0) Table wp_5_links: Total expected rows (approximate): 0
+0014.670 (0) Table wp_5_links: Total rows added: 0 in 0.00 seconds
+0014.675 (0) Table wp_5_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_links.table.gz - 0.4 KB)
+0014.695 (0) Table wp_5_options: Total expected rows (approximate): 132
+0014.715 (0) Table wp_5_options: Total rows added: 141 in 0.01 seconds
+0014.720 (0) Table wp_5_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_options.table.gz - 87.5 KB)
+0014.735 (0) Table wp_5_postmeta: Total expected rows (approximate): 0
+0014.741 (0) Table wp_5_postmeta: Total rows added: 1 in 0.00 seconds
+0014.746 (0) Table wp_5_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_postmeta.table.gz - 0.4 KB)
+0014.768 (0) Table wp_5_posts: Total expected rows (approximate): 2
+0014.774 (0) Table wp_5_posts: Total rows added: 3 in 0.00 seconds
+0014.779 (0) Table wp_5_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_posts.table.gz - 0.9 KB)
+0014.798 (0) Table wp_5_term_relationships: Total expected rows (approximate): 0
+0014.805 (0) Table wp_5_term_relationships: Total rows added: 1 in 0.00 seconds
+0014.809 (0) Table wp_5_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_term_relationships.table.gz - 0.4 KB)
+0014.832 (0) Table wp_5_term_taxonomy: Total expected rows (approximate): 0
+0014.839 (0) Table wp_5_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0014.844 (0) Table wp_5_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_term_taxonomy.table.gz - 0.4 KB)
+0014.867 (0) Table wp_5_termmeta: Total expected rows (approximate): 0
+0014.872 (0) Table wp_5_termmeta: Total rows added: 0 in 0.00 seconds
+0014.877 (0) Table wp_5_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_termmeta.table.gz - 0.4 KB)
+0014.895 (0) Table wp_5_terms: Total expected rows (approximate): 0
+0014.901 (0) Table wp_5_terms: Total rows added: 1 in 0.00 seconds
+0014.906 (0) Table wp_5_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_terms.table.gz - 0.4 KB)
+0014.923 (0) Table wp_6_aryo_activity_log: Total expected rows (approximate): 0
+0014.933 (0) Table wp_6_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0014.944 (0) Table wp_6_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_aryo_activity_log.table.gz - 0.4 KB)
+0014.976 (0) Table wp_6_commentmeta: Total expected rows (approximate): 0
+0014.987 (0) Table wp_6_commentmeta: Total rows added: 0 in 0.00 seconds
+0014.992 (0) Table wp_6_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_commentmeta.table.gz - 0.4 KB)
+0015.008 (0) Table wp_6_comments: Total expected rows (approximate): 0
+0015.014 (0) Table wp_6_comments: Total rows added: 1 in 0.00 seconds
+0015.021 (0) Table wp_6_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_comments.table.gz - 0.6 KB)
+0015.039 (0) Table wp_6_links: Total expected rows (approximate): 0
+0015.045 (0) Table wp_6_links: Total rows added: 0 in 0.00 seconds
+0015.049 (0) Table wp_6_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_links.table.gz - 0.4 KB)
+0015.066 (0) Table wp_6_options: Total expected rows (approximate): 126
+0015.084 (0) Table wp_6_options: Total rows added: 138 in 0.01 seconds
+0015.090 (0) Table wp_6_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_options.table.gz - 83.3 KB)
+0015.107 (0) Table wp_6_postmeta: Total expected rows (approximate): 0
+0015.113 (0) Table wp_6_postmeta: Total rows added: 1 in 0.00 seconds
+0015.117 (0) Table wp_6_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_postmeta.table.gz - 0.4 KB)
+0015.137 (0) Table wp_6_posts: Total expected rows (approximate): 2
+0015.143 (0) Table wp_6_posts: Total rows added: 3 in 0.00 seconds
+0015.148 (0) Table wp_6_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_posts.table.gz - 0.9 KB)
+0015.174 (0) Table wp_6_term_relationships: Total expected rows (approximate): 0
+0015.180 (0) Table wp_6_term_relationships: Total rows added: 1 in 0.00 seconds
+0015.184 (0) Table wp_6_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_term_relationships.table.gz - 0.4 KB)
+0015.200 (0) Table wp_6_term_taxonomy: Total expected rows (approximate): 0
+0015.206 (0) Table wp_6_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0015.211 (0) Table wp_6_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_term_taxonomy.table.gz - 0.4 KB)
+0015.229 (0) Table wp_6_termmeta: Total expected rows (approximate): 0
+0015.237 (0) Table wp_6_termmeta: Total rows added: 0 in 0.00 seconds
+0015.242 (0) Table wp_6_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_termmeta.table.gz - 0.4 KB)
+0015.258 (0) Table wp_6_terms: Total expected rows (approximate): 0
+0015.263 (0) Table wp_6_terms: Total rows added: 1 in 0.00 seconds
+0015.268 (0) Table wp_6_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_terms.table.gz - 0.4 KB)
+0015.289 (0) Table wp_7_aryo_activity_log: Total expected rows (approximate): 0
+0015.294 (0) Table wp_7_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0015.300 (0) Table wp_7_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_aryo_activity_log.table.gz - 0.4 KB)
+0015.316 (0) Table wp_7_commentmeta: Total expected rows (approximate): 0
+0015.322 (0) Table wp_7_commentmeta: Total rows added: 0 in 0.00 seconds
+0015.327 (0) Table wp_7_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_commentmeta.table.gz - 0.4 KB)
+0015.347 (0) Table wp_7_comments: Total expected rows (approximate): 0
+0015.352 (0) Table wp_7_comments: Total rows added: 1 in 0.00 seconds
+0015.357 (0) Table wp_7_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_comments.table.gz - 0.6 KB)
+0015.373 (0) Table wp_7_links: Total expected rows (approximate): 0
+0015.378 (0) Table wp_7_links: Total rows added: 0 in 0.00 seconds
+0015.388 (0) Table wp_7_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_links.table.gz - 0.4 KB)
+0015.405 (0) Table wp_7_options: Total expected rows (approximate): 131
+0015.425 (0) Table wp_7_options: Total rows added: 138 in 0.01 seconds
+0015.430 (0) Table wp_7_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_options.table.gz - 88.1 KB)
+0015.450 (0) Table wp_7_postmeta: Total expected rows (approximate): 42
+0015.458 (0) Table wp_7_postmeta: Total rows added: 41 in 0.00 seconds
+0015.464 (0) Table wp_7_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_postmeta.table.gz - 3.9 KB)
+0015.480 (0) Table wp_7_posts: Total expected rows (approximate): 18
+0015.490 (0) Table wp_7_posts: Total rows added: 21 in 0.01 seconds
+0015.496 (0) Table wp_7_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_posts.table.gz - 22.9 KB)
+0015.513 (0) Table wp_7_term_relationships: Total expected rows (approximate): 0
+0015.518 (0) Table wp_7_term_relationships: Total rows added: 1 in 0.00 seconds
+0015.523 (0) Table wp_7_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_term_relationships.table.gz - 0.4 KB)
+0015.539 (0) Table wp_7_term_taxonomy: Total expected rows (approximate): 0
+0015.545 (0) Table wp_7_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0015.550 (0) Table wp_7_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_term_taxonomy.table.gz - 0.4 KB)
+0015.568 (0) Table wp_7_termmeta: Total expected rows (approximate): 0
+0015.573 (0) Table wp_7_termmeta: Total rows added: 0 in 0.00 seconds
+0015.578 (0) Table wp_7_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_termmeta.table.gz - 0.4 KB)
+0015.599 (0) Table wp_7_terms: Total expected rows (approximate): 0
+0015.605 (0) Table wp_7_terms: Total rows added: 1 in 0.00 seconds
+0015.611 (0) Table wp_7_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_terms.table.gz - 0.4 KB)
+0015.628 (0) Table wp_8_aryo_activity_log: Total expected rows (approximate): 0
+0015.633 (0) Table wp_8_aryo_activity_log: Total rows added: 0 in 0.00 seconds
+0015.638 (0) Table wp_8_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_aryo_activity_log.table.gz - 0.4 KB)
+0015.654 (0) Table wp_8_commentmeta: Total expected rows (approximate): 0
+0015.659 (0) Table wp_8_commentmeta: Total rows added: 0 in 0.00 seconds
+0015.664 (0) Table wp_8_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_commentmeta.table.gz - 0.4 KB)
+0015.687 (0) Table wp_8_comments: Total expected rows (approximate): 0
+0015.692 (0) Table wp_8_comments: Total rows added: 1 in 0.00 seconds
+0015.697 (0) Table wp_8_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_comments.table.gz - 0.6 KB)
+0015.714 (0) Table wp_8_links: Total expected rows (approximate): 0
+0015.720 (0) Table wp_8_links: Total rows added: 0 in 0.00 seconds
+0015.725 (0) Table wp_8_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_links.table.gz - 0.4 KB)
+0015.744 (0) Table wp_8_options: Total expected rows (approximate): 137
+0015.773 (0) Table wp_8_options: Total rows added: 143 in 0.02 seconds
+0015.778 (0) Table wp_8_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_options.table.gz - 125.2 KB)
+0015.795 (0) Table wp_8_postmeta: Total expected rows (approximate): 0
+0015.801 (0) Table wp_8_postmeta: Total rows added: 1 in 0.00 seconds
+0015.806 (0) Table wp_8_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_postmeta.table.gz - 0.4 KB)
+0015.822 (0) Table wp_8_posts: Total expected rows (approximate): 4
+0015.828 (0) Table wp_8_posts: Total rows added: 4 in 0.00 seconds
+0015.836 (0) Table wp_8_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_posts.table.gz - 0.9 KB)
+0015.853 (0) Table wp_8_term_relationships: Total expected rows (approximate): 0
+0015.859 (0) Table wp_8_term_relationships: Total rows added: 1 in 0.00 seconds
+0015.864 (0) Table wp_8_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_term_relationships.table.gz - 0.4 KB)
+0015.880 (0) Table wp_8_term_taxonomy: Total expected rows (approximate): 0
+0015.889 (0) Table wp_8_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0015.893 (0) Table wp_8_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_term_taxonomy.table.gz - 0.4 KB)
+0015.910 (0) Table wp_8_termmeta: Total expected rows (approximate): 0
+0015.916 (0) Table wp_8_termmeta: Total rows added: 0 in 0.00 seconds
+0015.921 (0) Table wp_8_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_termmeta.table.gz - 0.4 KB)
+0015.942 (0) Table wp_8_terms: Total expected rows (approximate): 0
+0015.947 (0) Table wp_8_terms: Total rows added: 1 in 0.00 seconds
+0015.952 (0) Table wp_8_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_terms.table.gz - 0.4 KB)
+0015.968 (0) Table wp_9_aryo_activity_log: Total expected rows (approximate): 0
+0015.974 (0) Table wp_9_aryo_activity_log: Total rows added: 1 in 0.00 seconds
+0015.978 (0) Table wp_9_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_aryo_activity_log.table.gz - 0.5 KB)
+0016.000 (0) Table wp_9_commentmeta: Total expected rows (approximate): 0
+0016.006 (0) Table wp_9_commentmeta: Total rows added: 0 in 0.00 seconds
+0016.012 (0) Table wp_9_commentmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_commentmeta.table.gz - 0.4 KB)
+0016.029 (0) Table wp_9_comments: Total expected rows (approximate): 0
+0016.037 (0) Table wp_9_comments: Total rows added: 1 in 0.00 seconds
+0016.042 (0) Table wp_9_comments: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_comments.table.gz - 0.6 KB)
+0016.058 (0) Table wp_9_links: Total expected rows (approximate): 0
+0016.064 (0) Table wp_9_links: Total rows added: 0 in 0.00 seconds
+0016.069 (0) Table wp_9_links: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_links.table.gz - 0.4 KB)
+0016.089 (0) Table wp_9_options: Total expected rows (approximate): 128
+0016.118 (0) Table wp_9_options: Total rows added: 138 in 0.02 seconds
+0016.123 (0) Table wp_9_options: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_options.table.gz - 130.4 KB)
+0016.139 (0) Table wp_9_postmeta: Total expected rows (approximate): 0
+0016.145 (0) Table wp_9_postmeta: Total rows added: 1 in 0.00 seconds
+0016.150 (0) Table wp_9_postmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_postmeta.table.gz - 0.4 KB)
+0016.173 (0) Table wp_9_posts: Total expected rows (approximate): 2
+0016.179 (0) Table wp_9_posts: Total rows added: 3 in 0.00 seconds
+0016.183 (0) Table wp_9_posts: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_posts.table.gz - 0.9 KB)
+0016.200 (0) Table wp_9_term_relationships: Total expected rows (approximate): 0
+0016.205 (0) Table wp_9_term_relationships: Total rows added: 1 in 0.00 seconds
+0016.215 (0) Table wp_9_term_relationships: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_term_relationships.table.gz - 0.4 KB)
+0016.244 (0) Table wp_9_term_taxonomy: Total expected rows (approximate): 0
+0016.251 (0) Table wp_9_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0016.258 (0) Table wp_9_term_taxonomy: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_term_taxonomy.table.gz - 0.4 KB)
+0016.273 (0) Table wp_9_termmeta: Total expected rows (approximate): 0
+0016.278 (0) Table wp_9_termmeta: Total rows added: 0 in 0.00 seconds
+0016.288 (0) Table wp_9_termmeta: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_termmeta.table.gz - 0.4 KB)
+0016.304 (0) Table wp_9_terms: Total expected rows (approximate): 0
+0016.310 (0) Table wp_9_terms: Total rows added: 1 in 0.00 seconds
+0016.322 (0) Table wp_9_terms: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_terms.table.gz - 0.4 KB)
+0016.346 (0) Table wp_aryo_activity_log: Total expected rows (approximate): 46
+0016.352 (0) Table wp_aryo_activity_log: Total rows added: 47 in 0.00 seconds
+0016.356 (0) Table wp_aryo_activity_log: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_aryo_activity_log.table.gz - 1.1 KB)
+0016.373 (0) Table wp_nsd_site_setup_wizard: Total expected rows (approximate): 21
+0016.379 (0) Table wp_nsd_site_setup_wizard: Total rows added: 28 in 0.00 seconds
+0016.388 (0) Table wp_nsd_site_setup_wizard: finishing file (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_nsd_site_setup_wizard.table.gz - 1.6 KB)
+0016.402 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_options.table.gz (1/405): adding to final database dump
+0016.441 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_site.table.gz (2/405): adding to final database dump
+0016.447 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_blogs.table.gz (3/405): adding to final database dump
+0016.452 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_users.table.gz (4/405): adding to final database dump
+0016.457 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_usermeta.table.gz (5/405): adding to final database dump
+0016.462 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_blog_versions.table.gz (6/405): adding to final database dump
+0016.467 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_commentmeta.table.gz (7/405): adding to final database dump
+0016.472 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_comments.table.gz (8/405): adding to final database dump
+0016.477 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_links.table.gz (9/405): adding to final database dump
+0016.486 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_postmeta.table.gz (10/405): adding to final database dump
+0016.492 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_posts.table.gz (11/405): adding to final database dump
+0016.498 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_registration_log.table.gz (12/405): adding to final database dump
+0016.503 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_signups.table.gz (13/405): adding to final database dump
+0016.508 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_sitemeta.table.gz (14/405): adding to final database dump
+0016.519 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_term_relationships.table.gz (15/405): adding to final database dump
+0016.525 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_term_taxonomy.table.gz (16/405): adding to final database dump
+0016.530 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_termmeta.table.gz (17/405): adding to final database dump
+0016.538 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_terms.table.gz (18/405): adding to final database dump
+0016.543 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_aryo_activity_log.table.gz (19/405): adding to final database dump
+0016.548 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_commentmeta.table.gz (20/405): adding to final database dump
+0016.553 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_comments.table.gz (21/405): adding to final database dump
+0016.558 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_links.table.gz (22/405): adding to final database dump
+0016.563 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_options.table.gz (23/405): adding to final database dump
+0016.568 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_postmeta.table.gz (24/405): adding to final database dump
+0016.574 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_posts.table.gz (25/405): adding to final database dump
+0016.586 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_term_relationships.table.gz (26/405): adding to final database dump
+0016.591 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_term_taxonomy.table.gz (27/405): adding to final database dump
+0016.596 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_termmeta.table.gz (28/405): adding to final database dump
+0016.601 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_10_terms.table.gz (29/405): adding to final database dump
+0016.606 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_aryo_activity_log.table.gz (30/405): adding to final database dump
+0016.610 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_commentmeta.table.gz (31/405): adding to final database dump
+0016.615 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_comments.table.gz (32/405): adding to final database dump
+0016.620 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_links.table.gz (33/405): adding to final database dump
+0016.624 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_options.table.gz (34/405): adding to final database dump
+0016.659 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_postmeta.table.gz (35/405): adding to final database dump
+0016.664 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_posts.table.gz (36/405): adding to final database dump
+0016.669 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_term_relationships.table.gz (37/405): adding to final database dump
+0016.674 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_term_taxonomy.table.gz (38/405): adding to final database dump
+0016.679 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_termmeta.table.gz (39/405): adding to final database dump
+0016.684 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_11_terms.table.gz (40/405): adding to final database dump
+0016.695 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_aryo_activity_log.table.gz (41/405): adding to final database dump
+0016.700 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_commentmeta.table.gz (42/405): adding to final database dump
+0016.705 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_comments.table.gz (43/405): adding to final database dump
+0016.711 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_links.table.gz (44/405): adding to final database dump
+0016.717 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_options.table.gz (45/405): adding to final database dump
+0016.736 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_postmeta.table.gz (46/405): adding to final database dump
+0016.743 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_posts.table.gz (47/405): adding to final database dump
+0016.749 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_term_relationships.table.gz (48/405): adding to final database dump
+0016.754 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_term_taxonomy.table.gz (49/405): adding to final database dump
+0016.759 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_termmeta.table.gz (50/405): adding to final database dump
+0016.763 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_12_terms.table.gz (51/405): adding to final database dump
+0016.768 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_aryo_activity_log.table.gz (52/405): adding to final database dump
+0016.773 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_commentmeta.table.gz (53/405): adding to final database dump
+0016.778 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_comments.table.gz (54/405): adding to final database dump
+0016.786 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_links.table.gz (55/405): adding to final database dump
+0016.791 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_options.table.gz (56/405): adding to final database dump
+0016.810 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_postmeta.table.gz (57/405): adding to final database dump
+0016.823 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_posts.table.gz (58/405): adding to final database dump
+0016.828 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_term_relationships.table.gz (59/405): adding to final database dump
+0016.834 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_term_taxonomy.table.gz (60/405): adding to final database dump
+0016.838 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_termmeta.table.gz (61/405): adding to final database dump
+0016.843 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_13_terms.table.gz (62/405): adding to final database dump
+0016.849 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_aryo_activity_log.table.gz (63/405): adding to final database dump
+0016.854 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_commentmeta.table.gz (64/405): adding to final database dump
+0016.859 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_comments.table.gz (65/405): adding to final database dump
+0016.864 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_links.table.gz (66/405): adding to final database dump
+0016.869 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_options.table.gz (67/405): adding to final database dump
+0016.875 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_postmeta.table.gz (68/405): adding to final database dump
+0016.886 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_posts.table.gz (69/405): adding to final database dump
+0016.891 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_term_relationships.table.gz (70/405): adding to final database dump
+0016.896 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_term_taxonomy.table.gz (71/405): adding to final database dump
+0016.906 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_termmeta.table.gz (72/405): adding to final database dump
+0016.911 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_14_terms.table.gz (73/405): adding to final database dump
+0016.916 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_aryo_activity_log.table.gz (74/405): adding to final database dump
+0016.922 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_commentmeta.table.gz (75/405): adding to final database dump
+0016.927 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_comments.table.gz (76/405): adding to final database dump
+0016.938 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_links.table.gz (77/405): adding to final database dump
+0016.943 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_options.table.gz (78/405): adding to final database dump
+0016.955 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_postmeta.table.gz (79/405): adding to final database dump
+0016.960 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_posts.table.gz (80/405): adding to final database dump
+0016.965 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_term_relationships.table.gz (81/405): adding to final database dump
+0016.971 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_term_taxonomy.table.gz (82/405): adding to final database dump
+0016.976 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_termmeta.table.gz (83/405): adding to final database dump
+0016.981 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_15_terms.table.gz (84/405): adding to final database dump
+0016.988 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_aryo_activity_log.table.gz (85/405): adding to final database dump
+0016.993 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_commentmeta.table.gz (86/405): adding to final database dump
+0016.998 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_comments.table.gz (87/405): adding to final database dump
+0017.003 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_links.table.gz (88/405): adding to final database dump
+0017.008 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_options.table.gz (89/405): adding to final database dump
+0017.039 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_postmeta.table.gz (90/405): adding to final database dump
+0017.043 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_posts.table.gz (91/405): adding to final database dump
+0017.048 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_term_relationships.table.gz (92/405): adding to final database dump
+0017.053 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_term_taxonomy.table.gz (93/405): adding to final database dump
+0017.058 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_termmeta.table.gz (94/405): adding to final database dump
+0017.063 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_16_terms.table.gz (95/405): adding to final database dump
+0017.070 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_aryo_activity_log.table.gz (96/405): adding to final database dump
+0017.090 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_commentmeta.table.gz (97/405): adding to final database dump
+0017.094 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_comments.table.gz (98/405): adding to final database dump
+0017.100 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_links.table.gz (99/405): adding to final database dump
+0017.110 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_options.table.gz (100/405): adding to final database dump
+0017.137 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_postmeta.table.gz (101/405): adding to final database dump
+0017.142 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_posts.table.gz (102/405): adding to final database dump
+0017.149 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_term_relationships.table.gz (103/405): adding to final database dump
+0017.155 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_term_taxonomy.table.gz (104/405): adding to final database dump
+0017.159 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_termmeta.table.gz (105/405): adding to final database dump
+0017.173 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_17_terms.table.gz (106/405): adding to final database dump
+0017.178 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_aryo_activity_log.table.gz (107/405): adding to final database dump
+0017.183 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_commentmeta.table.gz (108/405): adding to final database dump
+0017.188 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_comments.table.gz (109/405): adding to final database dump
+0017.193 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_links.table.gz (110/405): adding to final database dump
+0017.198 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_options.table.gz (111/405): adding to final database dump
+0017.204 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_postmeta.table.gz (112/405): adding to final database dump
+0017.208 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_posts.table.gz (113/405): adding to final database dump
+0017.214 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_term_relationships.table.gz (114/405): adding to final database dump
+0017.226 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_term_taxonomy.table.gz (115/405): adding to final database dump
+0017.231 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_termmeta.table.gz (116/405): adding to final database dump
+0017.238 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_18_terms.table.gz (117/405): adding to final database dump
+0017.243 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_aryo_activity_log.table.gz (118/405): adding to final database dump
+0017.248 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_commentmeta.table.gz (119/405): adding to final database dump
+0017.253 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_comments.table.gz (120/405): adding to final database dump
+0017.258 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_links.table.gz (121/405): adding to final database dump
+0017.263 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_options.table.gz (122/405): adding to final database dump
+0017.269 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_postmeta.table.gz (123/405): adding to final database dump
+0017.274 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_posts.table.gz (124/405): adding to final database dump
+0017.288 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_term_relationships.table.gz (125/405): adding to final database dump
+0017.298 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_term_taxonomy.table.gz (126/405): adding to final database dump
+0017.304 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_termmeta.table.gz (127/405): adding to final database dump
+0017.309 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_19_terms.table.gz (128/405): adding to final database dump
+0017.314 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_aryo_activity_log.table.gz (129/405): adding to final database dump
+0017.340 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_commentmeta.table.gz (130/405): adding to final database dump
+0017.346 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_comments.table.gz (131/405): adding to final database dump
+0017.349 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_links.table.gz (132/405): adding to final database dump
+0017.355 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_options.table.gz (133/405): adding to final database dump
+0017.360 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_postmeta.table.gz (134/405): adding to final database dump
+0017.365 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_posts.table.gz (135/405): adding to final database dump
+0017.370 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_term_relationships.table.gz (136/405): adding to final database dump
+0017.375 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_term_taxonomy.table.gz (137/405): adding to final database dump
+0017.386 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_termmeta.table.gz (138/405): adding to final database dump
+0017.391 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_20_terms.table.gz (139/405): adding to final database dump
+0017.396 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_aryo_activity_log.table.gz (140/405): adding to final database dump
+0017.401 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_commentmeta.table.gz (141/405): adding to final database dump
+0017.406 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_comments.table.gz (142/405): adding to final database dump
+0017.411 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_links.table.gz (143/405): adding to final database dump
+0017.416 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_options.table.gz (144/405): adding to final database dump
+0017.422 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_postmeta.table.gz (145/405): adding to final database dump
+0017.427 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_posts.table.gz (146/405): adding to final database dump
+0017.438 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_term_relationships.table.gz (147/405): adding to final database dump
+0017.444 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_term_taxonomy.table.gz (148/405): adding to final database dump
+0017.449 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_termmeta.table.gz (149/405): adding to final database dump
+0017.453 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_21_terms.table.gz (150/405): adding to final database dump
+0017.458 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_aryo_activity_log.table.gz (151/405): adding to final database dump
+0017.463 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_commentmeta.table.gz (152/405): adding to final database dump
+0017.468 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_comments.table.gz (153/405): adding to final database dump
+0017.473 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_links.table.gz (154/405): adding to final database dump
+0017.486 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_options.table.gz (155/405): adding to final database dump
+0017.492 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_postmeta.table.gz (156/405): adding to final database dump
+0017.497 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_posts.table.gz (157/405): adding to final database dump
+0017.503 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_term_relationships.table.gz (158/405): adding to final database dump
+0017.507 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_term_taxonomy.table.gz (159/405): adding to final database dump
+0017.512 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_termmeta.table.gz (160/405): adding to final database dump
+0017.517 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_22_terms.table.gz (161/405): adding to final database dump
+0017.522 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_aryo_activity_log.table.gz (162/405): adding to final database dump
+0017.526 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_commentmeta.table.gz (163/405): adding to final database dump
+0017.538 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_comments.table.gz (164/405): adding to final database dump
+0017.543 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_links.table.gz (165/405): adding to final database dump
+0017.548 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_options.table.gz (166/405): adding to final database dump
+0017.553 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_postmeta.table.gz (167/405): adding to final database dump
+0017.558 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_posts.table.gz (168/405): adding to final database dump
+0017.563 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_term_relationships.table.gz (169/405): adding to final database dump
+0017.568 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_term_taxonomy.table.gz (170/405): adding to final database dump
+0017.572 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_termmeta.table.gz (171/405): adding to final database dump
+0017.588 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_23_terms.table.gz (172/405): adding to final database dump
+0017.597 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_aryo_activity_log.table.gz (173/405): adding to final database dump
+0017.607 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_commentmeta.table.gz (174/405): adding to final database dump
+0017.612 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_comments.table.gz (175/405): adding to final database dump
+0017.617 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_links.table.gz (176/405): adding to final database dump
+0017.622 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_options.table.gz (177/405): adding to final database dump
+0017.627 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_postmeta.table.gz (178/405): adding to final database dump
+0017.631 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_posts.table.gz (179/405): adding to final database dump
+0017.636 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_term_relationships.table.gz (180/405): adding to final database dump
+0017.641 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_term_taxonomy.table.gz (181/405): adding to final database dump
+0017.646 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_termmeta.table.gz (182/405): adding to final database dump
+0017.651 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_24_terms.table.gz (183/405): adding to final database dump
+0017.655 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_aryo_activity_log.table.gz (184/405): adding to final database dump
+0017.661 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_commentmeta.table.gz (185/405): adding to final database dump
+0017.666 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_comments.table.gz (186/405): adding to final database dump
+0017.671 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_links.table.gz (187/405): adding to final database dump
+0017.675 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_options.table.gz (188/405): adding to final database dump
+0017.688 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_postmeta.table.gz (189/405): adding to final database dump
+0017.693 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_posts.table.gz (190/405): adding to final database dump
+0017.697 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_term_relationships.table.gz (191/405): adding to final database dump
+0017.702 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_term_taxonomy.table.gz (192/405): adding to final database dump
+0017.706 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_termmeta.table.gz (193/405): adding to final database dump
+0017.711 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_25_terms.table.gz (194/405): adding to final database dump
+0017.716 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_aryo_activity_log.table.gz (195/405): adding to final database dump
+0017.721 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_commentmeta.table.gz (196/405): adding to final database dump
+0017.736 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_comments.table.gz (197/405): adding to final database dump
+0017.741 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_links.table.gz (198/405): adding to final database dump
+0017.746 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_options.table.gz (199/405): adding to final database dump
+0017.756 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_postmeta.table.gz (200/405): adding to final database dump
+0017.761 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_posts.table.gz (201/405): adding to final database dump
+0017.766 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_term_relationships.table.gz (202/405): adding to final database dump
+0017.771 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_term_taxonomy.table.gz (203/405): adding to final database dump
+0017.776 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_termmeta.table.gz (204/405): adding to final database dump
+0017.788 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_26_terms.table.gz (205/405): adding to final database dump
+0017.793 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_aryo_activity_log.table.gz (206/405): adding to final database dump
+0017.798 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_commentmeta.table.gz (207/405): adding to final database dump
+0017.803 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_comments.table.gz (208/405): adding to final database dump
+0017.808 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_links.table.gz (209/405): adding to final database dump
+0017.813 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_options.table.gz (210/405): adding to final database dump
+0017.818 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_postmeta.table.gz (211/405): adding to final database dump
+0017.824 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_posts.table.gz (212/405): adding to final database dump
+0017.836 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_term_relationships.table.gz (213/405): adding to final database dump
+0017.841 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_term_taxonomy.table.gz (214/405): adding to final database dump
+0017.847 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_termmeta.table.gz (215/405): adding to final database dump
+0017.852 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_27_terms.table.gz (216/405): adding to final database dump
+0017.857 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_aryo_activity_log.table.gz (217/405): adding to final database dump
+0017.861 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_commentmeta.table.gz (218/405): adding to final database dump
+0017.866 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_comments.table.gz (219/405): adding to final database dump
+0017.871 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_links.table.gz (220/405): adding to final database dump
+0017.876 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_options.table.gz (221/405): adding to final database dump
+0017.889 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_postmeta.table.gz (222/405): adding to final database dump
+0017.894 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_posts.table.gz (223/405): adding to final database dump
+0017.899 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_term_relationships.table.gz (224/405): adding to final database dump
+0017.904 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_term_taxonomy.table.gz (225/405): adding to final database dump
+0017.909 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_termmeta.table.gz (226/405): adding to final database dump
+0017.913 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_28_terms.table.gz (227/405): adding to final database dump
+0017.918 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_aryo_activity_log.table.gz (228/405): adding to final database dump
+0017.922 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_commentmeta.table.gz (229/405): adding to final database dump
+0017.936 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_comments.table.gz (230/405): adding to final database dump
+0017.941 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_links.table.gz (231/405): adding to final database dump
+0017.944 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_options.table.gz (232/405): adding to final database dump
+0017.949 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_postmeta.table.gz (233/405): adding to final database dump
+0017.954 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_posts.table.gz (234/405): adding to final database dump
+0017.959 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_term_relationships.table.gz (235/405): adding to final database dump
+0017.964 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_term_taxonomy.table.gz (236/405): adding to final database dump
+0017.968 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_termmeta.table.gz (237/405): adding to final database dump
+0017.973 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_29_terms.table.gz (238/405): adding to final database dump
+0017.986 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_aryo_activity_log.table.gz (239/405): adding to final database dump
+0017.991 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_commentmeta.table.gz (240/405): adding to final database dump
+0017.996 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_comments.table.gz (241/405): adding to final database dump
+0018.001 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_links.table.gz (242/405): adding to final database dump
+0018.006 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_options.table.gz (243/405): adding to final database dump
+0018.011 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_postmeta.table.gz (244/405): adding to final database dump
+0018.016 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_posts.table.gz (245/405): adding to final database dump
+0018.021 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_term_relationships.table.gz (246/405): adding to final database dump
+0018.026 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_term_taxonomy.table.gz (247/405): adding to final database dump
+0018.038 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_termmeta.table.gz (248/405): adding to final database dump
+0018.043 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_30_terms.table.gz (249/405): adding to final database dump
+0018.048 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_aryo_activity_log.table.gz (250/405): adding to final database dump
+0018.053 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_commentmeta.table.gz (251/405): adding to final database dump
+0018.058 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_comments.table.gz (252/405): adding to final database dump
+0018.063 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_links.table.gz (253/405): adding to final database dump
+0018.068 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_options.table.gz (254/405): adding to final database dump
+0018.073 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_postmeta.table.gz (255/405): adding to final database dump
+0018.086 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_posts.table.gz (256/405): adding to final database dump
+0018.091 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_term_relationships.table.gz (257/405): adding to final database dump
+0018.096 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_term_taxonomy.table.gz (258/405): adding to final database dump
+0018.102 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_termmeta.table.gz (259/405): adding to final database dump
+0018.107 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_31_terms.table.gz (260/405): adding to final database dump
+0018.112 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_aryo_activity_log.table.gz (261/405): adding to final database dump
+0018.117 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_commentmeta.table.gz (262/405): adding to final database dump
+0018.122 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_comments.table.gz (263/405): adding to final database dump
+0018.128 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_links.table.gz (264/405): adding to final database dump
+0018.138 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_options.table.gz (265/405): adding to final database dump
+0018.144 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_postmeta.table.gz (266/405): adding to final database dump
+0018.149 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_posts.table.gz (267/405): adding to final database dump
+0018.154 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_term_relationships.table.gz (268/405): adding to final database dump
+0018.159 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_term_taxonomy.table.gz (269/405): adding to final database dump
+0018.167 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_termmeta.table.gz (270/405): adding to final database dump
+0018.171 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_32_terms.table.gz (271/405): adding to final database dump
+0018.175 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_aryo_activity_log.table.gz (272/405): adding to final database dump
+0018.186 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_commentmeta.table.gz (273/405): adding to final database dump
+0018.191 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_comments.table.gz (274/405): adding to final database dump
+0018.196 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_links.table.gz (275/405): adding to final database dump
+0018.200 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_options.table.gz (276/405): adding to final database dump
+0018.219 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_postmeta.table.gz (277/405): adding to final database dump
+0018.224 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_posts.table.gz (278/405): adding to final database dump
+0018.229 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_term_relationships.table.gz (279/405): adding to final database dump
+0018.234 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_term_taxonomy.table.gz (280/405): adding to final database dump
+0018.239 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_termmeta.table.gz (281/405): adding to final database dump
+0018.243 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_33_terms.table.gz (282/405): adding to final database dump
+0018.248 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_aryo_activity_log.table.gz (283/405): adding to final database dump
+0018.254 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_commentmeta.table.gz (284/405): adding to final database dump
+0018.259 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_comments.table.gz (285/405): adding to final database dump
+0018.264 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_links.table.gz (286/405): adding to final database dump
+0018.269 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_options.table.gz (287/405): adding to final database dump
+0018.274 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_postmeta.table.gz (288/405): adding to final database dump
+0018.286 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_posts.table.gz (289/405): adding to final database dump
+0018.291 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_term_relationships.table.gz (290/405): adding to final database dump
+0018.296 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_term_taxonomy.table.gz (291/405): adding to final database dump
+0018.306 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_termmeta.table.gz (292/405): adding to final database dump
+0018.311 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_34_terms.table.gz (293/405): adding to final database dump
+0018.316 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_aryo_activity_log.table.gz (294/405): adding to final database dump
+0018.321 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_commentmeta.table.gz (295/405): adding to final database dump
+0018.326 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_comments.table.gz (296/405): adding to final database dump
+0018.338 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_links.table.gz (297/405): adding to final database dump
+0018.343 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_options.table.gz (298/405): adding to final database dump
+0018.370 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_postmeta.table.gz (299/405): adding to final database dump
+0018.380 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_posts.table.gz (300/405): adding to final database dump
+0018.385 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_term_relationships.table.gz (301/405): adding to final database dump
+0018.390 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_term_taxonomy.table.gz (302/405): adding to final database dump
+0018.396 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_termmeta.table.gz (303/405): adding to final database dump
+0018.401 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_35_terms.table.gz (304/405): adding to final database dump
+0018.406 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_aryo_activity_log.table.gz (305/405): adding to final database dump
+0018.410 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_commentmeta.table.gz (306/405): adding to final database dump
+0018.415 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_comments.table.gz (307/405): adding to final database dump
+0018.420 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_links.table.gz (308/405): adding to final database dump
+0018.424 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_options.table.gz (309/405): adding to final database dump
+0018.437 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_postmeta.table.gz (310/405): adding to final database dump
+0018.443 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_posts.table.gz (311/405): adding to final database dump
+0018.449 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_term_relationships.table.gz (312/405): adding to final database dump
+0018.454 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_term_taxonomy.table.gz (313/405): adding to final database dump
+0018.459 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_termmeta.table.gz (314/405): adding to final database dump
+0018.464 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_36_terms.table.gz (315/405): adding to final database dump
+0018.469 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_aryo_activity_log.table.gz (316/405): adding to final database dump
+0018.474 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_commentmeta.table.gz (317/405): adding to final database dump
+0018.479 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_comments.table.gz (318/405): adding to final database dump
+0018.488 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_links.table.gz (319/405): adding to final database dump
+0018.492 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_options.table.gz (320/405): adding to final database dump
+0018.498 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_postmeta.table.gz (321/405): adding to final database dump
+0018.503 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_posts.table.gz (322/405): adding to final database dump
+0018.509 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_term_relationships.table.gz (323/405): adding to final database dump
+0018.515 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_term_taxonomy.table.gz (324/405): adding to final database dump
+0018.521 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_termmeta.table.gz (325/405): adding to final database dump
+0018.526 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_37_terms.table.gz (326/405): adding to final database dump
+0018.538 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_aryo_activity_log.table.gz (327/405): adding to final database dump
+0018.543 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_commentmeta.table.gz (328/405): adding to final database dump
+0018.548 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_comments.table.gz (329/405): adding to final database dump
+0018.553 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_links.table.gz (330/405): adding to final database dump
+0018.558 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_options.table.gz (331/405): adding to final database dump
+0018.564 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_postmeta.table.gz (332/405): adding to final database dump
+0018.569 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_posts.table.gz (333/405): adding to final database dump
+0018.586 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_term_relationships.table.gz (334/405): adding to final database dump
+0018.591 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_term_taxonomy.table.gz (335/405): adding to final database dump
+0018.595 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_termmeta.table.gz (336/405): adding to final database dump
+0018.600 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_38_terms.table.gz (337/405): adding to final database dump
+0018.605 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_aryo_activity_log.table.gz (338/405): adding to final database dump
+0018.610 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_commentmeta.table.gz (339/405): adding to final database dump
+0018.615 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_comments.table.gz (340/405): adding to final database dump
+0018.620 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_links.table.gz (341/405): adding to final database dump
+0018.625 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_options.table.gz (342/405): adding to final database dump
+0018.651 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_postmeta.table.gz (343/405): adding to final database dump
+0018.656 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_posts.table.gz (344/405): adding to final database dump
+0018.661 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_term_relationships.table.gz (345/405): adding to final database dump
+0018.665 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_term_taxonomy.table.gz (346/405): adding to final database dump
+0018.670 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_termmeta.table.gz (347/405): adding to final database dump
+0018.675 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_4_terms.table.gz (348/405): adding to final database dump
+0018.679 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_aryo_activity_log.table.gz (349/405): adding to final database dump
+0018.684 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_commentmeta.table.gz (350/405): adding to final database dump
+0018.689 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_comments.table.gz (351/405): adding to final database dump
+0018.693 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_links.table.gz (352/405): adding to final database dump
+0018.699 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_options.table.gz (353/405): adding to final database dump
+0018.718 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_postmeta.table.gz (354/405): adding to final database dump
+0018.723 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_posts.table.gz (355/405): adding to final database dump
+0018.728 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_term_relationships.table.gz (356/405): adding to final database dump
+0018.733 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_term_taxonomy.table.gz (357/405): adding to final database dump
+0018.738 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_termmeta.table.gz (358/405): adding to final database dump
+0018.743 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_5_terms.table.gz (359/405): adding to final database dump
+0018.749 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_aryo_activity_log.table.gz (360/405): adding to final database dump
+0018.754 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_commentmeta.table.gz (361/405): adding to final database dump
+0018.758 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_comments.table.gz (362/405): adding to final database dump
+0018.764 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_links.table.gz (363/405): adding to final database dump
+0018.769 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_options.table.gz (364/405): adding to final database dump
+0018.787 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_postmeta.table.gz (365/405): adding to final database dump
+0018.792 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_posts.table.gz (366/405): adding to final database dump
+0018.798 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_term_relationships.table.gz (367/405): adding to final database dump
+0018.802 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_term_taxonomy.table.gz (368/405): adding to final database dump
+0018.807 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_termmeta.table.gz (369/405): adding to final database dump
+0018.812 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_6_terms.table.gz (370/405): adding to final database dump
+0018.817 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_aryo_activity_log.table.gz (371/405): adding to final database dump
+0018.822 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_commentmeta.table.gz (372/405): adding to final database dump
+0018.827 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_comments.table.gz (373/405): adding to final database dump
+0018.836 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_links.table.gz (374/405): adding to final database dump
+0018.841 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_options.table.gz (375/405): adding to final database dump
+0018.861 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_postmeta.table.gz (376/405): adding to final database dump
+0018.868 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_posts.table.gz (377/405): adding to final database dump
+0018.877 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_term_relationships.table.gz (378/405): adding to final database dump
+0018.882 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_term_taxonomy.table.gz (379/405): adding to final database dump
+0018.887 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_termmeta.table.gz (380/405): adding to final database dump
+0018.892 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_7_terms.table.gz (381/405): adding to final database dump
+0018.897 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_aryo_activity_log.table.gz (382/405): adding to final database dump
+0018.902 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_commentmeta.table.gz (383/405): adding to final database dump
+0018.907 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_comments.table.gz (384/405): adding to final database dump
+0018.912 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_links.table.gz (385/405): adding to final database dump
+0018.918 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_options.table.gz (386/405): adding to final database dump
+0018.944 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_postmeta.table.gz (387/405): adding to final database dump
+0018.949 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_posts.table.gz (388/405): adding to final database dump
+0018.954 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_term_relationships.table.gz (389/405): adding to final database dump
+0018.959 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_term_taxonomy.table.gz (390/405): adding to final database dump
+0018.964 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_termmeta.table.gz (391/405): adding to final database dump
+0018.969 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_8_terms.table.gz (392/405): adding to final database dump
+0018.974 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_aryo_activity_log.table.gz (393/405): adding to final database dump
+0018.983 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_commentmeta.table.gz (394/405): adding to final database dump
+0018.987 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_comments.table.gz (395/405): adding to final database dump
+0018.993 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_links.table.gz (396/405): adding to final database dump
+0018.997 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_options.table.gz (397/405): adding to final database dump
+0019.024 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_postmeta.table.gz (398/405): adding to final database dump
+0019.029 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_posts.table.gz (399/405): adding to final database dump
+0019.040 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_term_relationships.table.gz (400/405): adding to final database dump
+0019.045 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_term_taxonomy.table.gz (401/405): adding to final database dump
+0019.050 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_termmeta.table.gz (402/405): adding to final database dump
+0019.055 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_9_terms.table.gz (403/405): adding to final database dump
+0019.060 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_aryo_activity_log.table.gz (404/405): adding to final database dump
+0019.065 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db-table-wp_nsd_site_setup_wizard.table.gz (405/405): adding to final database dump
+0019.070 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db.gz: finished writing out complete database file (1384 KB)
+0019.097 (0) Total database tables backed up: 405 (backup_2016-08-11-1130_Multisite_demo_4199fad27744-db.gz, size: 1434437, checksum (SHA1): 5c8a67c98447c2c4b53312a70c731586367d4e0b)
+0019.117 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0019.122 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0019.127 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0019.132 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-others.zip: others: This file has not yet been successfully uploaded: will queue
+0019.138 (0) backup_2016-08-11-1130_Multisite_demo_4199fad27744-db.gz: db: This file has not yet been successfully uploaded: will queue
+0019.143 (0) Saving backup history. Total backup size: 45.7 MB
+0019.154 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0019.171 (0) Cloud backup selection (1/1): none (last)
+0019.176 (0) No remote despatch: user chose no remote backup service
+0019.191 (0) Recording as successfully uploaded: backup_2016-08-11-1130_Multisite_demo_4199fad27744-plugins.zip (a89d6fec65a087065437d9d8fc9c0136)
+0019.216 (0) Recording as successfully uploaded: backup_2016-08-11-1130_Multisite_demo_4199fad27744-themes.zip (cbe523b1d1fb99696c9fc130c7780dcd)
+0019.241 (0) Recording as successfully uploaded: backup_2016-08-11-1130_Multisite_demo_4199fad27744-uploads.zip (cff76444b2edf8e0068295480a02408b)
+0019.262 (0) Recording as successfully uploaded: backup_2016-08-11-1130_Multisite_demo_4199fad27744-others.zip (7123b8aedf345c76cba645a69ae70e19)
+0019.288 (0) Recording as successfully uploaded: backup_2016-08-11-1130_Multisite_demo_4199fad27744-db.gz (f462f52e990203593a76f1162a931f89)
+0019.307 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0019.311 (0) Number of backup sets in history: 1; groups (db): 1
+0019.316 (0) Examining (for databases) backup set with group_id=0, nonce=4199fad27744, datestamp=1470915057 (Aug 11 2016 11:30:57)
+0019.321 (0) This backup set is the backup set just made, so will not be deleted.
+0019.326 (0) Number of backup sets in history: 1; groups (files): 1
+0019.339 (0) Examining (for files) backup set with nonce=4199fad27744, datestamp=1470915057 (Aug 11 2016 11:30:57)
+0019.345 (0) This backup set is the backup set just made, so will not be deleted.
+0019.350 (0) This backup set is the backup set just made, so will not be deleted.
+0019.350 (0) This backup set is the backup set just made, so will not be deleted.
+0019.350 (0) This backup set is the backup set just made, so will not be deleted.
+0019.350 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0019.356 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0019.365 (0) Resume backup (4199fad27744, 0): finish run
+0019.379 (0) Decremented the semaphore (fd) by 1
+0019.393 (0) Semaphore (fd) unlocked
+0019.397 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0019.413 (0) No email will/can be sent - the user has not configured an email address.
+0019.417 (0) The backup apparently succeeded and is now complete
